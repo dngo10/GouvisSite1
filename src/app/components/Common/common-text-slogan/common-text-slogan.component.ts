@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-common-text-slogan',
@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./common-text-slogan.component.css']
 })
 export class CommonTextSloganComponent implements OnInit {
-  title : string;
-  content: string
+  @Input() title : string;
+  @Input() content: string;
 
   constructor() { }
 

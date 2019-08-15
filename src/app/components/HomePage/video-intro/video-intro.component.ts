@@ -17,10 +17,11 @@ export class VideoIntroComponent implements OnInit {
     
   }
 
-  @Input() videoLink: string;
+  @Input() videoLink: string ="https://www.youtube.com/embed/hbET2TKiaEI?vq=hd1080";
   @Input() videoPath: SafeResourceUrl ;
 
   ngOnInit() {
+    this.videoPath = this.sanitizer.bypassSecurityTrustResourceUrl(this.videoLink + "?vq=hd1080");
     this.onResize(null);
   }
 

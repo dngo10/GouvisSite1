@@ -21,7 +21,7 @@ export class ServiceMainComponent implements OnInit {
     //Add 'implements AfterContentInit' to the class.
     console.log(this.commonBanner);
     this.commonBanner.title = "SERVICE";
-    this.commonBanner.imagePath = "/assets/Medias/Images/BannerImages/ServiceBanner.jpg";
+    this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/ServiceBanner.jpg";
     this.cdRef.detectChanges();
   }
     

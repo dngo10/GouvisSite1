@@ -34,7 +34,7 @@ export class MediaMainComponent implements OnInit {
     //Called after ngOnInit when the component's or directive's content has been initialized.
     //Add 'implements AfterContentInit' to the class.
     this.commonBanner.title = "MEDIA";
-    this.commonBanner.imagePath = "/assets/Medias/Images/BannerImages/MediaBanner.jpg";
+    this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/MediaBanner.jpg";
     
     let i : number = 0;
 

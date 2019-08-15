@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 import { Url } from 'url';
 
 @Component({
@@ -8,8 +8,8 @@ import { Url } from 'url';
 })
 export class CommonBannerComponent implements OnInit {
 
-  title: string;
-  imagePath: string;
+  @Input() title: string;
+  @Input() imagePath: string;
 
   constructor() {
   }

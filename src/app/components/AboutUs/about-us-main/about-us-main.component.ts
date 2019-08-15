@@ -36,7 +36,7 @@ export class AboutUsMainComponent implements OnInit {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
     //Add 'implements AfterViewInit' to the class.
     this.commonBanner.title = "ABOUT US";
-    this.commonBanner.imagePath = "/assets/Medias/Images/BannerImages/AboutUsBanner.jpg";
+    this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/AboutUsBanner.jpg";
     
     let i : number = 0;
 

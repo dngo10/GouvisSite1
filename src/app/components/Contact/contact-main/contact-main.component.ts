@@ -21,7 +21,7 @@ export class ContactMainComponent implements OnInit {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
     //Add 'implements AfterViewInit' to the class.
     this.commonBanner.title = "CONTACT";
-    this.commonBanner.imagePath = "/assets/Medias/Images/BannerImages/ContactBanner.jpg";
+    this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/ContactBanner.jpg";
 
     this.commonTextSloganS.title = "CAREERS";
     this.commonTextSloganS.content = "Throughout the years, we have worked hard to create a healthy work environment that encourages teamwork, open lines of communication and collaboration. Gouvis Engineering believes that by empowering our employees to succeed, they take personal ownership in their role and are inspired to work more efficiently and effectively.";
