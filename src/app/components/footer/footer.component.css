@@ -1,0 +1,131 @@
+.footer{
+    background-color: whitesmoke;
+    margin-top: 5vh;
+    padding: 1vh;
+    padding-top: 3vh;
+    box-shadow: 0px -5px 6px -2px rgb(204, 204, 204);
+    background-repeat: repeat;
+    display: block;
+}
+
+@media only screen and (max-width: 951px){
+    .gridFooter{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 952px){
+    .gridFooter{
+        margin: auto;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.part{
+    text-align: center;
+    border-left: #b1c147 2px solid;
+}
+
+.thirdF{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.middleThirdF{
+    margin: auto;
+}
+
+.first{
+    border-left: 0px;
+}
+
+.title{
+    margin: auto;
+    width: 70%;
+    color: transparent;
+    background: #b1c147;
+    font-family: 'Avenir-bold-font';
+    font-size: 1.2em;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+
+.Copyright{
+    margin: auto;
+    text-align: center;
+    padding: 4vh;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    font-family: 'Avenir-font';
+    font-size: 100%;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);   
+}
+
+.content{
+    margin: auto;
+    width: 100%;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    font-family: 'Avenir-font';
+    font-size: 80%;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+}
+
+a {
+    margin: auto;
+    width: 100%;
+    color: transparent;
+    background: #b1c147;
+    margin: auto;
+    font-family: 'Avenir-font';
+    font-size: 1.2em;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+}
+
+.socialMedia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: .5vw;
+    height: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 
+}
+
+.facebook{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/facebook.svg');
+    background-size: 100% 100%;
+}
+
+.twitter{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/twitter.svg');
+    background-size: 100% 100%;    
+}
+.instagram{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/instagram.svg');
+    background-size: 100% 100%;    
+}
+
+.linkedin{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/linkedin.svg');
+    background-size: 100% 100%;    
+}
+
+.socialMedia > div{
+    cursor: pointer;
+
+}
+
+.space1{
+    padding: 2vh;
+}

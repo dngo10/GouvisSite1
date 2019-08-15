@@ -1,0 +1,11 @@
+<div class="magazineClass">
+        <app-magazine-element *ngFor="let item of items"
+            [imagePath]= "item.imagePath"
+            [title] = "item.title"
+            [link] = "item.link"
+            class="magazineElement">
+
+        </app-magazine-element>
+
+</div>
+

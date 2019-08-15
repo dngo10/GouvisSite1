@@ -1,0 +1,102 @@
+.title{
+    margin: auto;
+    background-color: #b1c147;
+    padding: 10px;
+    margin-top: 5vh;
+}
+
+.title > p{
+    font-family: 'Avenir-Bold-font';
+    font-size: 3em;
+    margin-left: 20%;
+    color: white;
+}
+
+.combo{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    margin-top: 5vh;
+}
+
+.combo > div{
+    width: 80%;
+}
+
+.combo > div:nth-child(1){
+    margin-left: 20%;
+}
+
+.contact1{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px #b1c147 solid;
+    font-family: "Avenir-font";
+    font-size: 1.5em;
+    margin-top: 5vh;
+    color: gray;
+    width: 60%;
+    padding-bottom: 1vh;
+}
+
+.inputButton{
+    border: none;
+    background-color: #b1c147;
+    color: white;
+    font-family: "Avenir-bold-font";
+    font-size: 1.5em;
+    margin-top: 5vh; 
+    width: 150px; 
+    height: 60px;
+}
+
+.inputButton:hover{
+    cursor: pointer;
+    background-color: rgb(77, 77, 77);
+    color: #b1c147;
+
+}
+
+.location{
+    font-family: "Avenir-font";
+}
+
+.text{
+    font-family: "Avenir-font";
+    font-size: 0.8em;
+}
+
+.text:nth-child(1){
+    margin-bottom: 2vh;
+    font-family: "Avenir-bold-font";
+    margin-top: 5vh;
+    font-size: 1em;
+}
+
+.text:nth-child(3) a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.text:nth-child(3) a:hover{
+    color: rgb(0, 89, 255);
+    
+}
+
+.divider{
+    border-top: 1px black solid;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 60%;
+}
+
+.slogan{
+    background-color: whitesmoke;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+}

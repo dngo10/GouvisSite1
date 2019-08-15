@@ -1,0 +1,40 @@
+.image{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5%;
+}
+
+.name{
+    font-family: 'Avenir-bold-font';
+    font-size: 1.3em;
+    color: white;   
+}
+
+.title{
+    font-family: 'Avenir-font';
+    font-size: 1em;
+    color: white;
+    font-size: 0.7em;
+
+}
+
+
+
+
+
+

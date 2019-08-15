@@ -1,0 +1,36 @@
+.split1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    grid-gap: 10vw;
+}
+
+.image{
+    background-size: cover;
+}
+
+.about{
+    font-family: "Avenir-bold-font";
+    font-size: 2em;
+    margin-bottom: 10%;
+    border-bottom: 2px solid #b1c147;
+    padding-bottom: 5%;
+}
+
+.name{
+    font-family: "Avenir-bold-font";
+    font-size: 1.5em;
+}
+
+.title{
+    font-family: "Avenir-font";
+    margin-bottom: 5%;   
+    font-size: 1.2em; 
+}
+
+.description{
+    font-family: "Avenir-font";
+    margin-bottom: 5%;     
+}

@@ -1,0 +1,35 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.parent > div{
+    background-size: cover;
+}
+
+    .div1 { 
+        background-image: url("../../../../assets/Medias/Images/ContactImages/IMG_1962.JPG.jpg");
+        grid-area: 1 / 1 / 5 / 4;
+    }
+    .div2 {
+        background-image: url("../../../../assets/Medias/Images/ContactImages/IMG_5937.JPG.jpg");
+        grid-area: 1 / 4 / 3 / 7; }
+    .div3 {
+        background-image: url("../../../../assets/Medias/Images/ContactImages/122.JPG.jpg");
+        grid-area: 3 / 4 / 5 / 6; }
+    .div4 {
+        background-image: url("../../../../assets/Medias/Images/ContactImages/Golf_2.jpg");
+        grid-area: 3 / 6 / 5 / 8; }
+    .div5 {
+        background-image: url("../../../../assets/Medias/Images/ContactImages/Basketball_Team_2007.JPG.jpg");
+        grid-area: 3 / 8 / 5 / 10; }
+    .div6 {
+        background-image: url("../../../../assets/Medias/Images/ContactImages/IMG_0110.JPG.jpg");
+        grid-area: 1 / 7 / 3 / 10; }
