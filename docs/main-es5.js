@@ -360,7 +360,7 @@ module.exports = "<div class=\"footer\">\r\n    <div class=\"gridFooter\">\r\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div id=\"mySidenav\" class=\"sidenav\">\r\n    <a href=\"javascript:void(0)\" class=\"closebtn\" (click)=\"menuClick()\">&times;</a>\r\n    <a href=\"/about-us\">About</a>\r\n    <a href=\"/services\">Services</a>\r\n    <a href=\"/media\">Media</a>\r\n    <a href=\"/contact\">Contact</a>\r\n</div>\r\n\r\n<div class = \"MenuBar\">\r\n    <a href=\"\">\r\n    <div class=\"logo\" >\r\n            <img src='assets/Medias/Images/CompanyLogo.svg'/>\r\n            <img src='assets/Medias/Images/CompanyLogoSmall.svg'/>\r\n    </div>\r\n    </a>\r\n        \r\n    <div class=\"menu\">\r\n        <img src=\"assets/Medias/Images/list.svg\" (click)=\"menuClickOpen()\"/>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n"
+module.exports = "\r\n<div id=\"mySidenav\" class=\"sidenav\">\r\n    <a href=\"javascript:void(0)\" class=\"closebtn\" (click)=\"menuClick()\">&times;</a>\r\n    <a href=\"\">Home</a>\r\n    <a href=\"about-us\">About</a>\r\n    <a href=\"services\">Services</a>\r\n    <a href=\"media\">Media</a>\r\n    <a href=\"contact\">Contact</a>\r\n</div>\r\n\r\n<div class = \"MenuBar\">\r\n    <a href=\"\">\r\n    <div class=\"logo\" >\r\n            <img src='assets/Medias/Images/CompanyLogo.svg'/>\r\n            <img src='assets/Medias/Images/CompanyLogoSmall.svg'/>\r\n    </div>\r\n    </a>\r\n        \r\n    <div class=\"menu\">\r\n        <img src=\"assets/Medias/Images/list.svg\" (click)=\"menuClickOpen()\"/>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n"
 
 /***/ }),
 
