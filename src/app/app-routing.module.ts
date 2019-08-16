@@ -7,6 +7,7 @@ import { MediaMainComponent } from './components/Media/media-main/media-main.com
 import { ContactMainComponent } from './components/Contact/contact-main/contact-main.component'; 
 import { AboutUsMainComponent } from './components/AboutUs/about-us-main/about-us-main.component';
 import { VipProfileComponent } from './components/AboutUs/vip-profile/vip-profile.component';
+import { PortfolioMainComponent } from './components/Portfolio/portfolio-main/portfolio-main.component';
 
 const routes: Routes = [
   {
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: 'person',
     component: VipProfileComponent
+  },
+  {
+    path: 'portfolio',
+    component: PortfolioMainComponent
   }
 ];
 

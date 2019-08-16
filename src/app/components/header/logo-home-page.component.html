@@ -1,4 +1,5 @@
 
+<!--
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" (click)="menuClick()">&times;</a>
     <a href="">Home</a>
@@ -20,6 +21,41 @@
         <img src="assets/Medias/Images/list.svg" (click)="menuClickOpen()"/>
     </div>
 </div>
+
+-->
+
+<div class="DNmenuBar">
+    <div class="DNlogo">
+                <a href="">
+    <img src='assets/Medias/Images/CompanyLogo.svg'/>
+    </a></div>
+    <nav class="DNmenuText">
+    <ul class="DNmenu1">
+         <li><a href="">HOME</a></li>
+         <li><a href="about-us">ABOUT US</a></li>
+         <li><a href="services">SERVICES</a></li>
+         <li><a href="portfolio">PORTFOLIO</a></li>
+         <li><a href="media">MEDIA</a></li>
+         <li><a href="contact">CONTACT US</a></li>
+    </ul>
+    </nav>
+    <div class="DNminiMenu"  (click)="menuClickOpen()">☰</div>
+    <div id="DNmySidenav" class="DNsidenav">
+         <li><a href="javascript:void(0)" class="DNclosebtn" (click)="menuClick()">×</a></li>
+    <a href="javascript:void(0)" class="DNclosebtn" onclick="closeNav()">
+    </a>
+         <li><a href="javascript:void(0)" class="DNclosebtn" (click)="menuClickOpen()"></a></li>
+         <li><a href="">HOME</a></li>
+         <li><a href="about-us">ABOUT US</a></li>
+         <li><a href="services">SERVICES</a></li>
+         <li><a href="portfolio">PORTFOLIO</a></li>
+         <li><a href="media">MEDIA</a></li>
+         <li><a href="contact">CONTACT US</a></li>
+    </div>
+    </div>
+    <script>
+
+    </script>
 
 
 

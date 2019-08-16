@@ -90,3 +90,157 @@ img{
         display: none;
       }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .DNmenuBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  	border-bottom: 2px solid #b1c147;
+}
+
+.DNlogo{
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.DNlogo img {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  	
+}
+
+@media screen and (min-width: 1200px){
+    .DNmenu1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        list-style-type: none;
+        margin: auto;
+    }
+    
+    .DNmenuText{
+		margin: auto;
+
+    }
+    
+    .DNmenuText li{
+        text-align: center;
+    }
+    
+    .DNmenuText li a{
+      	margin: auto;
+        text-decoration: none;    
+        color: #b1c147;
+        font-size: 1em;
+      	font-weight: bold;
+    }
+    
+    .DNmenuText li a:hover{
+        text-decoration: none;    
+        color: #adadad;
+    }
+
+    .DNminiMenu{
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .DNminiMenu{
+        height: 30px;
+        margin-left: auto;
+        margin-right: 5vw;
+        font-size: 1em;
+        color: #b1c147;
+        cursor: pointer;
+    }
+
+    .DNminiMenu img{
+        height: 30px;
+
+    }
+
+    .DNmenuText{
+        display: none;
+    }
+}
+
+
+.DNsidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgb(177,193,71);
+    background: #b1c147;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .DNsidenav li{
+    list-style-type: none;
+  }
+  
+  .DNsidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Avenir-bold-font';
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .DNsidenav a:hover {
+    color: rgb(129, 129, 129);
+  }
+  
+  .DNsidenav .DNclosebtn {
+    text-align: left;
+    font-size: 36px;
+    margin-left: 50px;
+
+  }
+  
+  @media screen and (max-height: 450px) {
+    .DNsidenav {padding-top: 15px;}
+    .DNsidenav a {font-size: 18px;}
+  }
