@@ -83,7 +83,7 @@
         },
 
         {
-            "project" : "Kimpton Hotel Capistrano",
+            "project" : "Kimpton Hotel",
             "location": "San Juan Capistrano, California",
             "description" : "A 102 Room Hotel",
             "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
@@ -92,8 +92,8 @@
         },
 
         {
-            "project" : "AMLI Uptown Orange",
-            "location": "Orange (city), California",
+            "project" : "AMLI Uptown",
+            "location": "city of Orange, California",
             "description" : "A 334 Unit Apartment Complex",
             "services" : "Engineering for Structural Calculations and Drafting",
             "type" : "mixed-use",
@@ -224,16 +224,7 @@
         },
 
         {
-            "project" : "Monarch Grove II at Summerly",
-            "location": "Lake Elsinore, California",
-            "description" : "A Single Family Residential Development",
-            "services" : "Engineering for Mechanical, Electrical, and Plumbing",
-            "type" : "single-family",
-            "imagelink": []             
-        },
-
-        {
-            "project" : "Santerra at Clovis",
+            "project" : "Santerra",
             "location": "Clovis, California",
             "description" : "A 77 Unit Residential Development",
             "services" : "Engineering for Structural",
@@ -242,7 +233,7 @@
         },
 
         {
-            "project" : "Skye Palm Springs",
+            "project" : "Skye",
             "location": "Palm Springs, California",
             "description" : "A Residential Development",
             "services" : "Engineering for Mechanical, Plumbing, and Electrical Load Calculations",
@@ -277,28 +268,13 @@
         },
 
         {
-            "project" : "Revelle Clancy Lane",
-            "location": "Rancho Mirage, California",
-            "description" : "A 32 Unit Residential Development",
-            "services" : "Engineering for Structural, MEP, T-24 & Post Tension",
-            "type" : "multi-family",
-            "imagelink": []             
-        },
-
-        {
             "project" : "Wallis Ranch",
             "location": "Dublin, California",
             "description" : "A Single Family Residential Development",
             "services" : "Engineering for Mechanical, Electrical, Plumbing, and Title 24",
             "type" : "single-family",
             "imagelink": []             
-        },
-
-
-
-        {}
-
-
+        }
     ]
     
 }
