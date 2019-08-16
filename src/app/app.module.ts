@@ -33,7 +33,9 @@ import { AboutUsMainComponent } from './components/AboutUs/about-us-main/about-u
 import { AUGridImagesComponent } from './components/AboutUs/augrid-images/augrid-images.component';
 import { AUImageComponent } from './components/AboutUs/auimage/auimage.component';
 import { VipSharedServiceComponent } from './components/Common/vip-shared-service/vip-shared-service.component';
-import { VipProfileComponent } from './components/AboutUs/vip-profile/vip-profile.component'; 
+import { VipProfileComponent } from './components/AboutUs/vip-profile/vip-profile.component';
+import { AUCultureGridImagesComponent } from './components/AboutUs/auculture-grid-images/auculture-grid-images.component';
+import { AUPartiesGridImagesComponent } from './components/AboutUs/auparties-grid-images/auparties-grid-images.component'; 
 
 
 @NgModule({
@@ -67,7 +69,9 @@ import { VipProfileComponent } from './components/AboutUs/vip-profile/vip-profil
     AUGridImagesComponent,
     AUImageComponent,
     VipSharedServiceComponent,
-    VipProfileComponent
+    VipProfileComponent,
+    AUCultureGridImagesComponent,
+    AUPartiesGridImagesComponent
   ],
   imports: [
     BrowserModule,

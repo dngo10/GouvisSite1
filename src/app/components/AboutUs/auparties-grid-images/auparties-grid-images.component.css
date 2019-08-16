@@ -1,0 +1,214 @@
+.LINK{
+    background: url('https://grid.layoutit.com?id=JTwgnFI');
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1.3fr 1.2fr 0.8fr 1fr 0.3fr 1.2fr 1fr;
+    grid-template-rows: 1.3fr 1.5fr 0.2fr 3.9fr 1.7fr 1.1fr 1fr 5.9fr 0.1fr 1fr 1fr 2.3fr 2.1fr 0.1fr 6.1fr 4.1fr 1.8fr 1fr 1fr 0.9fr 1.1fr 1fr 1.7fr 4.3fr 0.5fr 1fr 3fr 4.1fr;
+    grid-template-areas: "div1 div2 div3 div3 div3 div4 div4 div4" "div1 div2 div3 div3 div3 div4 div4 div4" "div1 div2 div3 div3 div3 div4 div4 div4" "div1 div2 div3 div3 div3 div4 div4 div4" "div1 div6 div7 div7 div8 div8 div8 div8" "div5 div6 div7 div7 div8 div8 div8 div8" "div5 div6 div7 div7 div8 div8 div8 div8" "div5 div6 div7 div7 div8 div8 div8 div8" "div9 div9 div10 div10 div10 div11 div11 div11" "div9 div9 div10 div10 div10 div11 div11 div11" "div9 div9 div10 div10 div10 div11 div11 div11" "div9 div9 div10 div10 div10 div11 div11 div11" "div9 div9 div10 div10 div10 div13 div13 div13" "div9 div9 div12 div12 div12 div13 div13 div13" "div9 div9 div12 div12 div12 div13 div13 div13" "div14 div14 div15 div16 div16 div16 div17 div17" "div14 div14 div15 div16 div16 div16 div17 div17" "div14 div14 div15 div16 div16 div16 div17 div17" "div14 div14 div15 div18 div18 div18 div18 div18" "div14 div14 div15 div18 div18 div18 div18 div18" "div19 div19 div20 div20 div21 div21 div21 div21" "div19 div19 div20 div20 div21 div21 div21 div21" "div19 div19 div20 div20 div21 div21 div21 div21" "div19 div19 div20 div20 div21 div21 div21 div21" "div22 div22 div23 div23 div23 div24 div24 div24" "div22 div22 div23 div23 div23 div24 div24 div24" "div22 div22 div23 div23 div23 div24 div24 div24" "div22 div22 div23 div23 div23 div24 div24 div24";
+
+    grid-gap: 5px;
+    height: 1900px;
+    width: 80%;
+    margin: auto;  
+}
+
+.grid-container > div{
+    box-shadow:0 0 5px rgba(158, 158, 158, 0.8);
+}
+
+.title{
+    font-family: 'avenir-bold-font';
+    background: #b1c147;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.title p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 800px){
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto; 
+        width: 100%;
+        height: 100%;
+    }
+
+    .title{
+        height: 70px;
+        width: 100%;
+    }
+
+    .img1{
+        width: 100%;
+        height: 300px;
+    } 
+
+    .title{
+        font-family: 'avenir-bold-font';
+        background: #b1c147;
+        color: white;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .title p{
+        text-align: center;
+        font-size: 1.5em;
+        margin: auto;
+    }
+    
+
+
+}
+
+
+
+  
+  .div1 {
+    grid-area: div1;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties14.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div2 { grid-area: div2; }
+  
+  .div3 { grid-area: div3;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties8.jpg');
+    background-size: cover;  
+    background-position: top left;
+}
+  
+  .div4 { grid-area: div4;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties1.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div5 { grid-area: div5;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties2.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div6 { grid-area: div6;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties15.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div7 { grid-area: div7;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties9.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div8 { grid-area: div8;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties18.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div9 { grid-area: div9;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties11.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div10 { grid-area: div10;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties12.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div11 { grid-area: div11;
+
+}
+  
+  .div12 { grid-area: div12;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties17.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div13 { grid-area: div13;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties16.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div14 { grid-area: div14;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties13.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div15 { grid-area: div15;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties10.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div16 { grid-area: div16;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties19.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div17 { grid-area: div17;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties20.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div18 { grid-area: div18; }
+  
+  .div19 { grid-area: div19;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties5.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div22 { grid-area: div22;
+
+}
+  
+  .div20 { grid-area: div20;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties4.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div21 { grid-area: div21;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties6.jpg');
+    background-size: cover;  
+    background-position: center ;
+}
+  
+  .div22 { grid-area: div22;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties3.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+  
+  .div23 { grid-area: div23;
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Parties/parties7.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+
+
+  .div24{ grid-area: div24;
+  }
