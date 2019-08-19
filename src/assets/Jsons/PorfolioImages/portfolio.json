@@ -9,7 +9,7 @@
             "type" : "custom",
             "imagelink": [
                 "‪assets/Medias/Images/PortfolioImages/custom/ABC_House_3.0.jpg"
-            ]             
+            ]
         },
 
         {
@@ -21,7 +21,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/custom/Blue_Jay1.jpg",
                 "assets/Medias/Images/PortfolioImages/custom/Blue_Jay2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -34,7 +34,7 @@
                 "assets/Medias/Images/PortfolioImages/custom/Corona_Del_Mar_Custom.jpg",
                 "assets/Medias/Images/PortfolioImages/custom/megonigal_residence.jpg",
                 "assets/Medias/Images/PortfolioImages/custom/megonigal_residence_2.jpg"
-            ]         
+            ]
         },
 
         {
@@ -60,7 +60,7 @@
                 "assets/Medias/Images/PortfolioImages/custom/Westgate_at_Mission_Hills_Country_Club.jpg"
             ]
         },
-        
+
         {
             "project" : "Cambria Holtel",
             "location": "Napa, California",
@@ -71,7 +71,7 @@
                 "assets/Medias/Images/PortfolioImages/commercial/cambria_hotel.jpg",
                 "assets/Medias/Images/PortfolioImages/commercial/Cambria_Napa.jpg",
                 "assets/Medias/Images/PortfolioImages/commercial/Cambria_Napa_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -83,7 +83,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/commercial/Georgian.jpg",
                 "assets/Medias/Images/PortfolioImages/commercial/Georgian_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -95,7 +95,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/commercial/Hellman Medical.jpg",
                 "assets/Medias/Images/PortfolioImages/commercial/Hellman_Medical_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -106,7 +106,7 @@
             "type" : "commercial",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/commercial/Kimpton_Hotel.jpg"
-            ]             
+            ]
         },
 
         {
@@ -118,7 +118,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/mixed_used/AMPLI_UPTOWN.jpg",
                 "assets/Medias/Images/PortfolioImages/mixed_used/AMPLI_UPTOWN2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -130,7 +130,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/mixed_used/LITTLE_TOKYO.jpg",
                 "assets/Medias/Images/PortfolioImages/mixed_used/LITTLE_TOKYO2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -142,7 +142,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/mixed_used/Northridge_Mixed_Use.jpg",
                 "assets/Medias/Images/PortfolioImages/mixed_used/Northridge_Mixed_Use_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -154,7 +154,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/mixed_used/The_Line.jpg",
                 "assets/Medias/Images/PortfolioImages/mixed_used/The_Line_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -164,8 +164,8 @@
             "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, Title 24, and Site Lighting",
             "type" : "mixed-use",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/mixed_used/The_One.jpg"        
-            ]             
+                "assets/Medias/Images/PortfolioImages/mixed_used/The_One.jpg"
+            ]
         },
 
         {
@@ -176,7 +176,7 @@
             "type" : "mixed-use",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/mixed_used/Variel.jpg"
-            ]          
+            ]
         },
 
         {
@@ -188,7 +188,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/multi_family/Camden_at_Playa_Vista.jpg",
                 "assets/Medias/Images/PortfolioImages/multi_family/Camden_at_Playa_Vista_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -200,7 +200,7 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/multi_family/Harland_1.jpg",
                 "assets/Medias/Images/PortfolioImages/multi_family/Harland_2.jpg"
-            ]             
+            ]
         },
 
         {
@@ -211,7 +211,7 @@
             "type" : "multi-family",
             "imagelink": [
               "assets/Medias/Images/PortfolioImages/multi_family/Ivy_Terrace.jpg"
-            ]             
+            ]
         },
 
         {
@@ -222,7 +222,7 @@
             "type" : "multi-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/multi_family/Palisades_Corona.png"
-            ]             
+            ]
         },
 
         {
@@ -245,17 +245,17 @@
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/multi_family/Veranda.jpg",
                 "assets/Medias/Images/PortfolioImages/multi_family/Veranda_2.jpg"
-            ]             
+            ]
         },
         {
             "project" : "Almeria (PHR-17A)",
             "location": "San Diego California",
             "description" : "An 84 Unit Residential Development",
             "services" : "Engineering for Structural, Mechanical",
-            "type" : "multi-family",
+            "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/Almeria_PardeeHomes_EricFiggePhotos.jpg"
-            ]             
+            ]
         },
 
         {
@@ -263,7 +263,7 @@
             "location": "San Diego California",
             "description" : "A 20 Unit Residential Development",
             "services" : "Engineering for Structural, Post Tension, and Mechanical",
-            "type" : "multi-family",
+            "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos.jpg",
                 "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos_2.jpg"
@@ -278,19 +278,19 @@
             "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/Covenant_Hills.jpg"
-            ]             
+            ]
         },
         {
             "project" : "Harvest Villages III",
             "location": "Jurupa Valley, California",
             "description" : "A 93 Unit Residential Development",
             "services" : "Engineering for Structural and Plumbing Isometric",
-            "type" : "multi-family",
+            "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/HARVEST_VILLAGE_PLAN.jpg",
                 "assets/Medias/Images/PortfolioImages/single_family/Harvest_Village_Plan_3.jpg",
                 "assets/Medias/Images/PortfolioImages/single_family/Harvest_Village_Plan_5.jpg"
-            ]             
+            ]
         },
 
         {
@@ -303,7 +303,7 @@
                 "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_1.jpg",
                 "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_2.jpg",
                 "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_3.jpg"
-            ]             
+            ]
         },
 
         {
@@ -311,10 +311,10 @@
             "location": "Clovis, California",
             "description" : "A 77 Unit Residential Development",
             "services" : "Engineering for Structural",
-            "type" : "multi-family",
+            "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/Santerra.jpg"
-            ]             
+            ]
         },
 
         {
@@ -325,7 +325,7 @@
             "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/Skye_Palm_Springs.jpg"
-            ]             
+            ]
         },
 
         {
@@ -336,7 +336,7 @@
             "type" : "single-family",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/single_family/The_Highlands.jpg"
-            ]             
+            ]
         },
 
         {
@@ -346,8 +346,8 @@
             "services" : "Engineering for Structural, MEP, T-24 & Post Tension",
             "type" : "multi-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/award_winning_projects/Revelle_at_Clancy_Lane.jpg"
-            ]             
+                "assets/Medias/Images/PortfolioImages/multi_family/Revelle_at_Clancy_Lane.jpg"
+            ]
         },
 
         {
@@ -357,9 +357,9 @@
             "services" : "Engineering for Mechanical, Electrical, Plumbing, and Title 24",
             "type" : "single-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/award_winning_projects/Wallis_Ranch_Residential.jpg"
+                "assets/Medias/Images/PortfolioImages/multi_family/Wallis_Ranch_Residential.jpg"
             ]
         }
     ]
-    
+
 }
