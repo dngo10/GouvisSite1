@@ -1,0 +1,19 @@
+.gridImage{
+    display: grid;
+    grid-template: "a a" 
+                   "b c";
+    grid-gap: 2px;
+    height: 800px;
+}
+
+.div1{
+    grid-area: "a";
+}
+
+.data{
+    grid-area: "b";
+}
+
+.div2{
+    background-color: #b1c147;
+}

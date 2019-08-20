@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable, Inject } from '@angular/core';
+import { Component, OnInit, Injectable} from '@angular/core';
 
 @Component({
   selector: 'app-vip-shared-service',

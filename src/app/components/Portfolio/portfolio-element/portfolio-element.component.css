@@ -1,0 +1,69 @@
+
+
+.background{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.canvas{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1.2s;
+}
+
+.text{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider{
+    margin: auto;
+    width : 100%;
+    border-bottom: 2px white solid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.project{
+    font-family: "Avenir-bold-font";
+    font-size: 0em;
+    color: white;
+    transition: .5s;
+    transform: translateY(100px);
+}
+
+.description{
+    font-family: "Avenir-font";
+    font-size: 0em;
+    color: white;
+    transition: .5s;
+    transform: translateY(-100px);
+}
+
+.canvas:hover{
+    background-color: #b1c14796; 
+}
+
+.canvas:hover .project{
+    font-size: 3em;
+    transform: translateY(-50px);
+}
+
+.canvas:hover .description{
+    font-size: 1.2em;
+    transform: translateY(50px);
+}
+

@@ -36,7 +36,15 @@ import { VipSharedServiceComponent } from './components/Common/vip-shared-servic
 import { VipProfileComponent } from './components/AboutUs/vip-profile/vip-profile.component';
 import { AUCultureGridImagesComponent } from './components/AboutUs/auculture-grid-images/auculture-grid-images.component';
 import { AUPartiesGridImagesComponent } from './components/AboutUs/auparties-grid-images/auparties-grid-images.component';
-import { PortfolioMainComponent } from './components/Portfolio/portfolio-main/portfolio-main.component'; 
+import { PortfolioMainComponent } from './components/Portfolio/portfolio-main/portfolio-main.component';
+import { PortfolioCommercialComponent } from './components/Portfolio/portfolio-commercial/portfolio-commercial.component';
+import { PortfolioElementComponent } from './components/Portfolio/portfolio-element/portfolio-element.component';
+import { Template1Component } from './components/Portfolio/PageTemplate/template1/template1.component';
+import { Template2Component } from './components/Portfolio/PageTemplate/template2/template2.component';
+import { Template3Component } from './components/Portfolio/PageTemplate/template3/template3.component';
+import { Template4Component } from './components/Portfolio/PageTemplate/template4/template4.component';
+import { DataBlockComponent } from './components/Portfolio/PageTemplate/data-block/data-block.component';
+import { PortfolioSharedServiceComponent } from './components/Common/portfolio-shared-service/portfolio-shared-service.component'; 
 
 
 @NgModule({
@@ -73,7 +81,15 @@ import { PortfolioMainComponent } from './components/Portfolio/portfolio-main/po
     VipProfileComponent,
     AUCultureGridImagesComponent,
     AUPartiesGridImagesComponent,
-    PortfolioMainComponent
+    PortfolioMainComponent,
+    PortfolioCommercialComponent,
+    PortfolioElementComponent,
+    Template1Component,
+    Template2Component,
+    Template3Component,
+    Template4Component,
+    DataBlockComponent,
+    PortfolioSharedServiceComponent
   ],
   imports: [
     BrowserModule,
@@ -82,7 +98,8 @@ import { PortfolioMainComponent } from './components/Portfolio/portfolio-main/po
     CommonModule
   ],
   providers: [
-    VipSharedServiceComponent
+    VipSharedServiceComponent,
+    PortfolioSharedServiceComponent
   ],
   bootstrap: [AppComponent]
 })

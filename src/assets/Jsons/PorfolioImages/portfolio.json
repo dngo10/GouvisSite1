@@ -62,15 +62,25 @@
         },
 
         {
-            "project" : "Cambria Holtel",
-            "location": "Napa, California",
-            "description" : "A Hotel",
-            "services" : "Engineering for Structural, Mechanical, Electrical, and Plumbing",
+            "project" : "Cambria Hotel",
+            "location": "Orlando, Florida",
+            "description" : "A 153 Room Key Hotel",
+            "services" : "Engineering for Structural, Mechanical, Plumbing, and Title 24",
             "type" : "commercial",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/commercial/cambria_hotel.jpg",
-                "assets/Medias/Images/PortfolioImages/commercial/Cambria_Napa.jpg",
-                "assets/Medias/Images/PortfolioImages/commercial/Cambria_Napa_2.jpg"
+                "assets/Medias/Images/PortfolioImages/commercial/orlando-cambria.jpg",
+                "assets/Medias/Images/PortfolioImages/commercial/orlando-cambria1-1.jpg"
+            ]
+        },
+
+        {
+            "project" : "Kimpton Hotel",
+            "location": "San Juan Capistrano, California",
+            "description" : "A 102 Room Hotel",
+            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
+            "type" : "commercial",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/commercial/Kimpton_Hotel.jpg"
             ]
         },
 
@@ -93,21 +103,11 @@
             "services" : "Engineering for Structural",
             "type" : "commercial",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/commercial/Hellman Medical.jpg",
+                "assets/Medias/Images/PortfolioImages/commercial/Hellman_Medical.jpg",
                 "assets/Medias/Images/PortfolioImages/commercial/Hellman_Medical_2.jpg"
             ]
         },
 
-        {
-            "project" : "Kimpton Hotel",
-            "location": "San Juan Capistrano, California",
-            "description" : "A 102 Room Hotel",
-            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
-            "type" : "commercial",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/commercial/Kimpton_Hotel.jpg"
-            ]
-        },
 
         {
             "project" : "AMLI Uptown",

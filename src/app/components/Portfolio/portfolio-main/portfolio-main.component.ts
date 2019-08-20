@@ -10,6 +10,9 @@ export class PortfolioMainComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
+
+
 
 }
