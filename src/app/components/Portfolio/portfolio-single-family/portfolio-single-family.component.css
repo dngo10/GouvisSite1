@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    height: 2400px;
+    grid-gap: 10px;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "div1 div1 div1 div1 div5 div5" "div1 div1 div1 div1 div5 div5" "div1 div1 div1 div1 div6 div6" "div2 div2 div2 div2 div6 div6" "div2 div2 div2 div2 div7 div7" "div2 div2 div2 div2 div7 div7" "div3 div3 div3 div3 div8 div8" "div3 div3 div3 div3 div8 div8" "div3 div3 div3 div3 div9 div9" "div4 div4 div4 div4 div9 div9" "div4 div4 div4 div4 div9 div9" "div4 div4 div4 div4 div9 div9";
+  }
+  
+  .gridEle:nth-child(1) { grid-area: div1; }
+  
+  .gridEle:nth-child(2) { grid-area: div2; }
+  
+  .gridEle:nth-child(3) { grid-area: div3; }
+  
+  .gridEle:nth-child(4) { grid-area: div4; }
+  
+  .gridEle:nth-child(5) { grid-area: div5; }
+
+  .gridEle:nth-child(6) { grid-area: div6; }
+  
+  .gridEle:nth-child(7) { grid-area: div7; }
+  
+  .gridEle:nth-child(8) { grid-area: div8; }
+  
+  .gridEle:nth-child(9) { grid-area: div9; }
+
+  @media only screen and (max-width: 900px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .gridEle:nth-child(n) {
+        height: 500px;
+    }
+}

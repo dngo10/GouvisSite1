@@ -1,16 +1,31 @@
 <div>
-    <div>
-        <p>Portfoli</p>
+    <div class= "title">
+        <p>Porfolio</p>
+    </div>
+    <div class = "portfolioMenu">
+        <p class="item" (click)="allClick('all')">ALL</p>
+        <p class="item" (click)="allClick('custom')">CUSTOM</p>
+        <p class="item" (click)="allClick('commercial')">COMMERCIAL</p>
+        <p class="item" (click)="allClick('mixeduse')">MIXED USE</p>
+        <p class="item" (click)="allClick('singlefamily')">SINGLE-FAMILY</p>
+        <p class="item" (click)="allClick('multifamily')">MULTI-FAMILY</p>
     </div>
     <div>
-        <p>ALL</p>
-        <p>COMMERCIAL</p>
-        <p>MIXED USE</p>
-        <p>MULTI-FAMILY</p>
-        <p>SINGLE-FAMILY</p>
-    </div>
-    <div>
-        <app-portfolio-commercial >
+        <app-portfolio-commercial *ngIf="showCommercial">
         </app-portfolio-commercial>
+
+        <app-portfolio-custom *ngIf="showCustom">
+        </app-portfolio-custom>
+        
+        <app-portfolio-mixed-use *ngIf="showMixedUse">
+        </app-portfolio-mixed-use>
+
+        <app-portfolio-single-family *ngIf="showSingleFamily">
+        </app-portfolio-single-family>
+
+        <app-portfolio-multi-family *ngIf="showMultiFamily">
+        </app-portfolio-multi-family>
+
+
     </div>
 </div>

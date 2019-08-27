@@ -44,7 +44,12 @@ import { Template2Component } from './components/Portfolio/PageTemplate/template
 import { Template3Component } from './components/Portfolio/PageTemplate/template3/template3.component';
 import { Template4Component } from './components/Portfolio/PageTemplate/template4/template4.component';
 import { DataBlockComponent } from './components/Portfolio/PageTemplate/data-block/data-block.component';
-import { PortfolioSharedServiceComponent } from './components/Common/portfolio-shared-service/portfolio-shared-service.component'; 
+import { PortfolioSharedServiceComponent } from './components/Common/portfolio-shared-service/portfolio-shared-service.component';
+import { PortfolioMixedUseComponent } from './components/Portfolio/portfolio-mixed-use/portfolio-mixed-use.component';
+import { PortfolioSingleFamilyComponent } from './components/Portfolio/portfolio-single-family/portfolio-single-family.component';
+import { PortfolioMultiFamilyComponent } from './components/Portfolio/portfolio-multi-family/portfolio-multi-family.component';
+import { PortfolioCustomComponent } from './components/Portfolio/portfolio-custom/portfolio-custom.component';
+import { PortfolioProjectDetailComponent } from './components/Portfolio/portfolio-project-detail/portfolio-project-detail.component'; 
 
 
 @NgModule({
@@ -89,7 +94,12 @@ import { PortfolioSharedServiceComponent } from './components/Common/portfolio-s
     Template3Component,
     Template4Component,
     DataBlockComponent,
-    PortfolioSharedServiceComponent
+    PortfolioSharedServiceComponent,
+    PortfolioMixedUseComponent,
+    PortfolioSingleFamilyComponent,
+    PortfolioMultiFamilyComponent,
+    PortfolioCustomComponent,
+    PortfolioProjectDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,21 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import * as portfolioData from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
-import { PortfolioSharedServiceComponent } from '../../Common/portfolio-shared-service/portfolio-shared-service.component.js';
 
 
 @Component({
-  selector: 'app-portfolio-commercial',
-  templateUrl: './portfolio-commercial.component.html',
-  styleUrls: ['./portfolio-commercial.component.css']
+  selector: 'app-portfolio-single-family',
+  templateUrl: './portfolio-single-family.component.html',
+  styleUrls: ['./portfolio-single-family.component.css']
 })
-export class PortfolioCommercialComponent implements OnInit {
+export class PortfolioSingleFamilyComponent implements OnInit {
 
   items: Array<ele>;
   type: string;
 
   constructor() {
     this.items = new Array<ele>();
-    this.type = "commercial";
+    this.type = "single-family";
   }
 
 
@@ -48,3 +47,4 @@ class ele{
   type: string;
   className : string;
 }
+

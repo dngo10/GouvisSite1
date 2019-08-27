@@ -1,21 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import * as portfolioData from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
-import { PortfolioSharedServiceComponent } from '../../Common/portfolio-shared-service/portfolio-shared-service.component.js';
-
 
 @Component({
-  selector: 'app-portfolio-commercial',
-  templateUrl: './portfolio-commercial.component.html',
-  styleUrls: ['./portfolio-commercial.component.css']
+  selector: 'app-portfolio-custom',
+  templateUrl: './portfolio-custom.component.html',
+  styleUrls: ['./portfolio-custom.component.css']
 })
-export class PortfolioCommercialComponent implements OnInit {
+export class PortfolioCustomComponent implements OnInit {
 
   items: Array<ele>;
   type: string;
 
   constructor() {
     this.items = new Array<ele>();
-    this.type = "commercial";
+    this.type = "custom";
   }
 
 

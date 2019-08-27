@@ -1,0 +1,10 @@
+<div class= "grid-container" >  
+    <app-portfolio-element class="gridEle"  *ngFor="let item of items"   
+        [project] = item.project
+        [type] = item.type
+        [description] = item.description
+        [services] = item.services
+        [location] = item.location
+        [imagelink] = item.imagelink
+    ></app-portfolio-element>
+</div>

@@ -29,8 +29,8 @@ export class PortfolioElementComponent implements OnInit {
     this._portfolioService.type = this.type;
     this._portfolioService.imagelink = this.imagelink;
     this._portfolioService.services = this.services;
-    
-    console.log(this.imagelink[0]);
+
+    console.log(this.project);
   }
 
 }

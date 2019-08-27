@@ -20,5 +20,4 @@ export class PortfolioSharedServiceComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

@@ -8,7 +8,7 @@
             "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
             "type" : "custom",
             "imagelink": [
-                "‪assets/Medias/Images/PortfolioImages/custom/ABC_House_3.0.jpg"
+                "assets/Medias/Images/PortfolioImages/custom/ABC_House.jpg"
             ]
         },
 
@@ -133,6 +133,18 @@
             ]
         },
 
+        
+        {
+            "project" : "The One",
+            "location": "San Gabriel, California",
+            "description" : "An 81 Unit Mixed Use Project",
+            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, Title 24, and Site Lighting",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/The_One.jpg"
+            ]
+        },
+
         {
             "project" : "Northridge Mixed Use",
             "location": "Northridge, California",
@@ -158,24 +170,84 @@
         },
 
         {
-            "project" : "The One",
-            "location": "San Gabriel, California",
-            "description" : "An 81 Unit Mixed Use Project",
-            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, Title 24, and Site Lighting",
-            "type" : "mixed-use",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/mixed_used/The_One.jpg"
-            ]
-        },
-
-        {
-            "project" : "Variel 'Warner Center' Apartments",
+            "project" : "Variel",
             "location": "Los Angeles, California",
             "description" : "A 232 Unit Apartment Complex",
             "services" : "Engineering for Structural",
             "type" : "mixed-use",
             "imagelink": [
                 "assets/Medias/Images/PortfolioImages/mixed_used/Variel.jpg"
+            ]
+        },
+
+        {
+            "project" : "Revelle Clancy Lane",
+            "location": "Rancho Mirage, California",
+            "description" : "A 32 Unit Residential Development",
+            "services" : "Engineering for Structural, MEP, T-24 & Post Tension",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Revelle_at_Clancy_Lane.jpg"
+            ]
+        },
+
+        
+        {
+            "project" : "Palisades Apartments",
+            "location": "Corona, California",
+            "description" : "A 288 Unit Apartment Complex",
+            "services" : "Mechanical, Electrical, Site Lighting and Plumbing design and layouts",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Palisades_Corona.jpg"
+            ]
+        },
+
+        {
+            "project" : "Ivy Terrace",
+            "location": "Patterson, California",
+            "description" : "A 1 Unit Condominium Complex",
+            "services" : "Engineering for Post Tension",
+            "type" : "multi-family",
+            "imagelink": [
+              "assets/Medias/Images/PortfolioImages/multi_family/Ivy_Terrace.jpg"
+            ]
+        },
+
+        {
+            "project" : "Royal Oaks Courtyard Villas",
+            "location": "Houston, Texas",
+            "description" : "A 24 Unit Condominium Complex and 56 unit single family",
+            "services" : "Engineering for Structural, T-24, Post Tension & MEP",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Royal_Oaks_Courtyard_Villas.jpg"
+            ]
+        },
+
+        {
+            "project" : "Harland",
+            "location": "West Hollywood, California",
+            "description" : "A 50 Unit Condominium Complex",
+            "services" : "Engineering for Structural, T-24 & MEP",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Harland_1.jpg",
+                "assets/Medias/Images/PortfolioImages/multi_family/Harland_2.jpg"
+            ]
+        },
+
+
+
+        {
+            "project" : "Veranda",
+            "location": "Rancho Mission Viejo, California",
+            "description" : "A 86 Unit Condominium Complex",
+            "services" : "Engineering for Structural",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Veranda.jpg",
+                "assets/Medias/Images/PortfolioImages/multi_family/Veranda_2.jpg"
             ]
         },
 
@@ -192,81 +264,13 @@
         },
 
         {
-            "project" : "Doheny Dr. and Harland Ave.",
-            "location": "West Hollywood, California",
-            "description" : "A 50 Unit Condominium Complex",
-            "services" : "Engineering for Structural, T-24 & MEP",
-            "type" : "multi-family",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/multi_family/Harland_1.jpg",
-                "assets/Medias/Images/PortfolioImages/multi_family/Harland_2.jpg"
-            ]
-        },
-
-        {
-            "project" : "Ivy Terrace",
-            "location": "Patterson, California",
-            "description" : "A 1 Unit Condominium Complex",
-            "services" : "Engineering for Post Tension",
-            "type" : "multi-family",
-            "imagelink": [
-              "assets/Medias/Images/PortfolioImages/multi_family/Ivy_Terrace.jpg"
-            ]
-        },
-
-        {
-            "project" : "Palisades Apartments",
-            "location": "Corona, California",
-            "description" : "A 288 Unit Apartment Complex",
-            "services" : "Mechanical, Electrical, Site Lighting and Plumbing design and layouts",
-            "type" : "multi-family",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/multi_family/Palisades_Corona.png"
-            ]
-        },
-
-        {
-            "project" : "Royal Oaks Courtyard Villas",
-            "location": "Houston, Texas",
-            "description" : "A 24 Unit Condominium Complex and 56 unit single family",
-            "services" : "Engineering for Structural, T-24, Post Tension & MEP",
-            "type" : "multi-family",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/multi_family/Royal_Oaks_Courtyard_Villas.jpg"
-            ]
-        },
-
-        {
-            "project" : "Veranda",
-            "location": "Rancho Mission Viejo, California",
-            "description" : "A 86 Unit Condominium Complex",
-            "services" : "Engineering for Structural",
-            "type" : "multi-family",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/multi_family/Veranda.jpg",
-                "assets/Medias/Images/PortfolioImages/multi_family/Veranda_2.jpg"
-            ]
-        },
-        {
-            "project" : "Almeria (PHR-17A)",
-            "location": "San Diego California",
-            "description" : "An 84 Unit Residential Development",
-            "services" : "Engineering for Structural, Mechanical",
+            "project" : "Skye",
+            "location": "Palm Springs, California",
+            "description" : "A Residential Development",
+            "services" : "Engineering for Mechanical, Plumbing, and Electrical Load Calculations",
             "type" : "single-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/single_family/Almeria_PardeeHomes_EricFiggePhotos.jpg"
-            ]
-        },
-
-        {
-            "project" : "Artesana (PHR Unit 20)",
-            "location": "San Diego California",
-            "description" : "A 20 Unit Residential Development",
-            "services" : "Engineering for Structural, Post Tension, and Mechanical",
-            "type" : "single-family",
-            "imagelink": [
-                "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos.jpg",
-                "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos_2.jpg"
+                "assets/Medias/Images/PortfolioImages/single_family/Skye_Palm_Springs.jpg"
             ]
         },
 
@@ -280,8 +284,9 @@
                 "assets/Medias/Images/PortfolioImages/single_family/Covenant_Hills.jpg"
             ]
         },
+
         {
-            "project" : "Harvest Villages III",
+            "project" : "Harvest Villages",
             "location": "Jurupa Valley, California",
             "description" : "A 93 Unit Residential Development",
             "services" : "Engineering for Structural and Plumbing Isometric",
@@ -293,16 +298,15 @@
             ]
         },
 
+        
         {
-            "project" : "Monarch Grove II at Summerly",
-            "location": "Lake Elsinore, California",
+            "project" : "Wallis Ranch",
+            "location": "Dublin, California",
             "description" : "A Single Family Residential Development",
-            "services" : "Engineering for Mechanical, Electrical, and Plumbing",
+            "services" : "Engineering for Mechanical, Electrical, Plumbing, and Title 24",
             "type" : "single-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_1.jpg",
-                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_2.jpg",
-                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_3.jpg"
+                "assets/Medias/Images/PortfolioImages/single_family/Wallis_Ranch_Residential.jpg"
             ]
         },
 
@@ -318,18 +322,20 @@
         },
 
         {
-            "project" : "Skye",
-            "location": "Palm Springs, California",
-            "description" : "A Residential Development",
-            "services" : "Engineering for Mechanical, Plumbing, and Electrical Load Calculations",
+            "project" : "Monarch Grove II",
+            "location": "Lake Elsinore, California",
+            "description" : "A Single Family Residential Development",
+            "services" : "Engineering for Mechanical, Electrical, and Plumbing",
             "type" : "single-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/single_family/Skye_Palm_Springs.jpg"
+                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_1.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_2.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_3.jpg"
             ]
         },
-
+        
         {
-            "project" : "The Highlands of Los Gatos ",
+            "project" : "The Highlands",
             "location": "Los Gatos, California",
             "description" : "A 1 Unit Residential Development",
             "services" : "Engineering for Structural & Mechanical",
@@ -339,27 +345,30 @@
             ]
         },
 
+        
         {
-            "project" : "Revelle Clancy Lane",
-            "location": "Rancho Mirage, California",
-            "description" : "A 32 Unit Residential Development",
-            "services" : "Engineering for Structural, MEP, T-24 & Post Tension",
-            "type" : "multi-family",
+            "project" : "Almeria",
+            "location": "San Diego California",
+            "description" : "An 84 Unit Residential Development",
+            "services" : "Engineering for Structural, Mechanical",
+            "type" : "single-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/multi_family/Revelle_at_Clancy_Lane.jpg"
+                "assets/Medias/Images/PortfolioImages/single_family/Almeria_PardeeHomes_EricFiggePhotos.jpg"
             ]
         },
 
         {
-            "project" : "Wallis Ranch",
-            "location": "Dublin, California",
-            "description" : "A Single Family Residential Development",
-            "services" : "Engineering for Mechanical, Electrical, Plumbing, and Title 24",
+            "project" : "Artesana",
+            "location": "San Diego California",
+            "description" : "A 20 Unit Residential Development",
+            "services" : "Engineering for Structural, Post Tension, and Mechanical",
             "type" : "single-family",
             "imagelink": [
-                "assets/Medias/Images/PortfolioImages/multi_family/Wallis_Ranch_Residential.jpg"
+                "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos_2.jpg"
             ]
         }
+
     ]
 
 }

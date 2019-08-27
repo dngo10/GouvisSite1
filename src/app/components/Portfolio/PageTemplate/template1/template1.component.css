@@ -1,19 +1,18 @@
-.gridImage{
+.grid-container {
     display: grid;
-    grid-template: "a a" 
-                   "b c";
-    grid-gap: 2px;
-    height: 800px;
-}
-
-.div1{
-    grid-area: "a";
-}
-
-.data{
-    grid-area: "b";
-}
-
-.div2{
-    background-color: #b1c147;
-}
+    height: 1200px;
+    grid-gap: 10px;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "div1 div1 div1 div1"
+                         "div1 div1 div1 div1"
+                         "data data div2 div2"
+                         "data data div2 div2";
+  }
+  
+  .div1 { grid-area: div1; }
+  
+  .data { grid-area: data; }
+  
+  .div2 { grid-area: div2; }
