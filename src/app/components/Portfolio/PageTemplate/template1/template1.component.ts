@@ -12,7 +12,7 @@ export class Template1Component implements OnInit {
   project: string;
   location: string;
   type: string;
-  
+  img1: string = "name";
 
   ngOnInit() {
 
