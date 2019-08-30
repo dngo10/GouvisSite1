@@ -6,7 +6,7 @@
     margin: auto;
     
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "div1 div1 div1 div1"
                          "div1 div1 div1 div1"
                          "div1 div1 div1 div1"
@@ -15,13 +15,34 @@
   }
   
   .imgBackGround { grid-area: div1; 
-    border: 1px red solid;
 }
   
   .data { grid-area: data;
     background-color: lightgray;
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
   
   .spareSpace { grid-area: div2;
     background-color: #b1c147;
+}
+
+@media screen and (max-width: 900px){
+  .gridImage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .imgBackGround{
+    height: 500px;
+    margin-bottom: 10px;
+  }
+
+  .spareSpace{
+    display: none;
+  }
 }

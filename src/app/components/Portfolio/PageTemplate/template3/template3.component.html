@@ -1,1 +1,25 @@
-<p>template3 works!</p>
+<div class="gridImage">
+
+    <div class="imgBackGround" *ngFor="let img of imagelink"
+    [ngStyle]="{'background-image': 'url(' + img + ')', 'background-size' : 'cover'}"
+    >
+    </div>
+
+    <div class="spareSpace1">
+    </div>
+
+    <div class="spareSpace2">
+    </div>
+    
+
+    <app-data-block class="data"
+        [type] = type
+        [location] = location 
+        [imagelink] = imagelink
+        [project] = project
+        [description] = description
+        [services] = services
+    >
+
+    </app-data-block>
+</div> 

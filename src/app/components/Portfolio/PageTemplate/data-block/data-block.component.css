@@ -1,14 +1,41 @@
 .block{
 }
 
-.descript{
+.descrip{
     font-family: 'Avenir-font';
-    font-size: 1.5em;
+    font-size: 1em;
     margin-left: 10px;
 }
 
 .title{
     font-family: 'Avenir-bold-font';
-    font-size: 1.5em;
-    font-size-adjust: initial;
+    font-size: 1em;
+    text-align: right;
+    width: 7.5vw;
+    min-width: 100px;
+}
+
+.descrip{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+tr{
+    height: 60px;
+}
+
+
+.tableData{
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 900px){
+    .title{
+        font-size: .8em;
+    }
+
+    .descrip{
+        font-size: .8em;
+    }
 }

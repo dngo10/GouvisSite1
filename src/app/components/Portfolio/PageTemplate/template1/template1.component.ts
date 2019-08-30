@@ -19,7 +19,6 @@ export class Template1Component implements OnInit {
 
 
   ngOnInit() {
-    console.log("hello");
   }
 
 }

@@ -14,4 +14,29 @@
 
         </app-template1>
     </div>
+    <div *ngIf="imageNum == 2">
+        <app-template2
+         [type] = type
+         [location] =location
+         [imagelink] = imagelink
+         [project] = project
+         [description] = description
+         [services] = services
+        >
+
+        </app-template2>
+    </div>
+
+    <div *ngIf="imageNum == 3">
+        <app-template3
+         [type] = type
+         [location] =location
+         [imagelink] = imagelink
+         [project] = project
+         [description] = description
+         [services] = services
+        >
+
+        </app-template3>
+    </div>
 </div>

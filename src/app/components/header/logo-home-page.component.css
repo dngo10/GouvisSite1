@@ -148,6 +148,7 @@ img{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         list-style-type: none;
         margin: auto;
+        font-family: "Avenir-font";
     }
     
     .DNmenuText{

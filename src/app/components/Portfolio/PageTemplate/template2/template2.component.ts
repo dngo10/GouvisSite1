@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-template2',
@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Template2Component implements OnInit {
 
+  @Input() project: string;
+  @Input() type: string;
+  @Input() description: string;
+  @Input() services: string;
+  @Input() location: string;
+  @Input() imagelink: Array<string>;
+  
   constructor() { }
 
   ngOnInit() {

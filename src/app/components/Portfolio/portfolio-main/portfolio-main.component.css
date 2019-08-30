@@ -1,12 +1,12 @@
 .portfolioMenu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 10vh;
     margin-bottom: 10vh;
     font-family: "Avenir-bold-font";
-    font-size: 1.5em;
+    font-size: 1em;
     color: #b1c147;
 }
 
