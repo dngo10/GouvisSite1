@@ -41,7 +41,7 @@ const routes: Routes = [
     component: PortfolioMainComponent
   },
   {
-    path: 'project-details',
+    path: 'abc',
     component: PortfolioProjectDetailComponent
   }
 ];

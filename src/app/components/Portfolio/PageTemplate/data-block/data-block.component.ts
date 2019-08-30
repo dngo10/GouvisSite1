@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { PortfolioSharedServiceComponent } from 'src/app/components/Common/portfolio-shared-service/portfolio-shared-service.component';
 
 @Component({
@@ -8,20 +8,14 @@ import { PortfolioSharedServiceComponent } from 'src/app/components/Common/portf
 })
 export class DataBlockComponent implements OnInit {
 
-  type: string;
-  location: string;
-  imagelink: Array<string>;
-  project: string;
-  description: string;
-  services: string;
+  @Input() type: string;
+  @Input() location: string;
+  @Input() imagelink: Array<string>;
+  @Input() project: string;
+  @Input() description: string;
+  @Input() services: string;
 
-  constructor(portfolioShared: PortfolioSharedServiceComponent) {
-    this.type = portfolioShared.type;
-    this.location = portfolioShared.location;
-    this.description = portfolioShared.description;
-    this.imagelink = portfolioShared.imagelink;
-    this.project = portfolioShared.project;
-    this.services = portfolioShared.services;
+  constructor() {
   }
 
   ngOnInit() {

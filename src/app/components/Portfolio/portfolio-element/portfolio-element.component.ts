@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { PortfolioSharedServiceComponent } from '../../Common/portfolio-shared-service/portfolio-shared-service.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio-element',
@@ -8,7 +9,7 @@ import { PortfolioSharedServiceComponent } from '../../Common/portfolio-shared-s
 })
 export class PortfolioElementComponent implements OnInit {
 
-  constructor(private _portfolioService: PortfolioSharedServiceComponent) { }
+  constructor(private _portfolioService: PortfolioSharedServiceComponent, private router: Router) { }
 
   @Input() project: string;
   @Input() type: string;
@@ -19,7 +20,6 @@ export class PortfolioElementComponent implements OnInit {
 
 
   ngOnInit() {
-
   }
 
   openProjectPage(){
@@ -30,7 +30,7 @@ export class PortfolioElementComponent implements OnInit {
     this._portfolioService.imagelink = this.imagelink;
     this._portfolioService.services = this.services;
 
-    console.log(this.project);
+    this.router.navigateByUrl('/abc');
   }
 
 }

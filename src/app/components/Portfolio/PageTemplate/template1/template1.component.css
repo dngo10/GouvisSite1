@@ -1,18 +1,27 @@
-.grid-container {
+.gridImage {
     display: grid;
     height: 1200px;
     grid-gap: 10px;
+    width: 75%;
+    margin: auto;
     
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "div1 div1 div1 div1"
                          "div1 div1 div1 div1"
+                         "div1 div1 div1 div1"
                          "data data div2 div2"
                          "data data div2 div2";
   }
   
-  .div1 { grid-area: div1; }
+  .imgBackGround { grid-area: div1; 
+    border: 1px red solid;
+}
   
-  .data { grid-area: data; }
+  .data { grid-area: data;
+    background-color: lightgray;
+}
   
-  .div2 { grid-area: div2; }
+  .spareSpace { grid-area: div2;
+    background-color: #b1c147;
+}

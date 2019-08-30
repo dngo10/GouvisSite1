@@ -1,12 +1,20 @@
 <div class="gridImage">
-
-    <div class="div1" [ngStyle]="{'background-image': 'url(' + img1 + ')', 'background-size' : 'cover'}">
-
+    <div class="imgBackGround" *ngFor="let img of imagelink"
+    [ngStyle]="{'background-image': 'url(' + img + ')', 'background-size' : 'cover'}"
+    >
     </div>
-    <div class="div2">
 
+    <div class="spareSpace">
     </div>
-    <div class="data">
 
-    </div>
+    <app-data-block class="data"
+        [type] = type
+        [location] = location 
+        [imagelink] = imagelink
+        [project] = project
+        [description] = description
+        [services] = services
+    >
+
+    </app-data-block>
 </div> 
