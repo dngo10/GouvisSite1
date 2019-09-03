@@ -1,5 +1,5 @@
 <div class=CommonEffeciencyBanner>
-        <div class="Effeciency">
+        <div [ngClass]="(isIEOrEdge == true)?'Effeciency':'Effeciency1'">
             <p>{{title}}</p>
         </div>
         <div class="LineDivider"></div>

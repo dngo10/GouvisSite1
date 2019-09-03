@@ -5,6 +5,7 @@
 }
 
 .Effeciency{
+
     margin: auto;
     text-align: center;
     font-family: 'Avenir-bold-font';
@@ -15,6 +16,20 @@
     font-family: 'Avenir-bold-font';
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    font-weight: bolder;
+}
+
+.Effeciency1{
+
+    margin: auto;
+    text-align: center;
+    font-family: 'Avenir-bold-font';
+    font-size: 2em;
+    margin-bottom: 5vh;
+    color: #666666;
+    font-family: 'Avenir-bold-font';
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    font-weight: bolder;
 }
 
 .LineDivider{
