@@ -57,6 +57,16 @@
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
+.houseFrame > div > div> p{
+    margin: auto;
+    padding: 10%;
+    text-align: center;
+    color: #666666;
+    font-family: 'Avenir-bold-font';
+    font-size: 1em;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
 .houseFrame{
     
     display: grid;

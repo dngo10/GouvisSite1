@@ -1,4 +1,5 @@
 import { Component, OnInit, Injectable } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-portfolio-shared-service',
@@ -16,8 +17,14 @@ export class PortfolioSharedServiceComponent implements OnInit {
   description: string;
   services: string;
 
-  constructor() { }
+  constructor(private router: Router) {
+
+    if(this.description == undefined){
+      this.router.navigateByUrl('portfolio');
+    }
+  }
 
   ngOnInit() {
+
   }
 }

@@ -45,11 +45,9 @@
 .title{
     margin: auto;
     width: 70%;
-    color: transparent;
-    background: #b1c147;
+    color: #b1c147;
     font-family: 'Avenir-bold-font';
     font-size: 1.2em;
-    background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
     margin-bottom: 5%;
     font-weight: bolder;
@@ -59,36 +57,31 @@
     margin: auto;
     text-align: center;
     padding: 4vh;
-    color: transparent;
-    background: #666666;
+    color: #666666;
     margin: auto;
     font-family: 'Avenir-font';
     font-size: 100%;
-    background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);   
 }
 
 .content{
     margin: auto;
     width: 100%;
-    color: transparent;
-    background: #666666;
+    color: #666666;
     margin: auto;
     font-family: 'Avenir-font';
     font-size: 80%;
-    background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
 }
 
-a {
+.link1 a{
+    text-decoration: none;
     margin: auto;
     width: 100%;
-    color: transparent;
-    background: #b1c147;
+    color: #b1c147;
     margin: auto;
     font-family: 'Avenir-font';
     font-size: 1.2em;
-    background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
 }
 
@@ -99,7 +92,7 @@ a {
     height: 25px;
     width: 50%;
     margin-left: auto;
-    margin-top: 
+    margin-top: auto;
 }
 
 .facebook{

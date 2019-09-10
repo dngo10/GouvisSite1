@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ChangeDetectorRef } from '@angular/core';
+import { CommonBannerComponent } from '../../Common/common-banner/common-banner.component';
+
 
 @Component({
   selector: 'app-portfolio-main',
@@ -7,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioMainComponent implements OnInit {
 
+  @ViewChild(CommonBannerComponent, {static: false}) commonBanner: CommonBannerComponent;
+
   showCommercial: boolean;
   showCustom : boolean;
   showMixedUse : boolean;
@@ -14,7 +18,7 @@ export class PortfolioMainComponent implements OnInit {
   showMultiFamily : boolean;
   itemclicked : string;
 
-  constructor() {
+  constructor(private cdRef:ChangeDetectorRef) {
     this.showCommercial = true;
     this.showCustom = true;
     this.showMixedUse = true;
@@ -77,6 +81,15 @@ export class PortfolioMainComponent implements OnInit {
 
   ngOnInit() {
 
+  }
+
+  ngAfterViewInit(): void {
+    //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
+    //Add 'implements AfterViewInit' to the class.
+    this.commonBanner.title= "PORTFOLIO";
+    this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/PortfolioBanner.jpg";
+
+    this.cdRef.detectChanges();
   }
 
 

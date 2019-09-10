@@ -10,6 +10,21 @@
     color: #b1c147;
 }
 
+@media screen and (max-width: 1000px){
+    .portfolioMenu{
+        width: 80%;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .portfolioMenu{
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+    }
+}
+
 .portfolioMenu:nth-child(n){
     align-items: center;
 }

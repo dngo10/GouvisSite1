@@ -1,4 +1,5 @@
 import { Component, OnInit, Injectable} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-vip-shared-service',
@@ -14,7 +15,12 @@ export class VipSharedServiceComponent implements OnInit {
   imageName: string;
   description: string;
 
-  constructor() { }
+  constructor(private router: Router) {
+    if(this.description == undefined){
+      this.router.navigateByUrl('about-us');
+    }
+
+  }
 
   ngOnInit() {
   }
