@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.houseFrame > div > div> img{
+.houseFrame > div > div> a> img{
     
     height: 70px;
     max-width: auto;
@@ -44,28 +44,13 @@
     border-top:  3px solid #b1c147;
 }
 
-.houseFrame > div > div> p{
+.houseFrame > div > div> p {
     margin: auto;
     padding: 10%;
     text-align: center;
-    color: transparent;
-    background: #666666;
-    text-align: center;
-    font-family: 'Avenir-bold-font';
-    font-size: 1em;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+
 }
 
-.houseFrame > div > div> p{
-    margin: auto;
-    padding: 10%;
-    text-align: center;
-    color: #666666;
-    font-family: 'Avenir-bold-font';
-    font-size: 1em;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-}
 
 .houseFrame{
     
@@ -75,6 +60,17 @@
     margin-top: 20vh;
     align-items: start;
     margin-bottom: 20vh;
+}
+
+a{
+    text-decoration: none;
+    color: transparent;
+    background: #666666;
+    text-align: center;
+    font-family: 'Avenir-bold-font';
+    font-size: 1em;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
 
