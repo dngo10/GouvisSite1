@@ -1,33 +1,39 @@
 .block{
+    height: 100%;
 }
 
 .descrip{
     font-family: 'Avenir-font';
     font-size: 1em;
-    margin-left: 10px;
+    margin-left: 5vw;
+}
+
+.table{
+    height: 70%;
 }
 
 .title{
     font-family: 'Avenir-bold-font';
-    font-size: 1em;
-    text-align: right;
-    width: 7.5vw;
+    font-size: 1.1em;
+    text-align: left;
     min-width: 100px;
 }
 
-.descrip{
-    margin-left: 20px;
-    margin-right: 20px;
+tr:nth-child(odd){
+    height: 50%;
 }
 
-tr{
-    height: 60px;
+tr:nth-child(even){
+    height: 100%;
 }
 
 
 .tableData{
     text-align: left;
     margin-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 900px){

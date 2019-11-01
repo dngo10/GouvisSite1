@@ -10,6 +10,7 @@
     font-family: 'Avenir-bold-font';
     font-size: 2em;
     margin-bottom: 5vh;
+    color: rgb(99, 99, 99);
 }
 
 .LineDivider{
@@ -27,6 +28,7 @@
     font-size: 1.2em;
     width: 70vw;
     margin-bottom: 5vh;
+    
 }
 
 .Text2{

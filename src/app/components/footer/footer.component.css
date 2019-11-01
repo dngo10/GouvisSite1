@@ -18,24 +18,28 @@
     .gridFooter{
         margin: auto;
         width: 80vw;
+        /*grid-column-gap: 2vw;*/
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        min-height: 150px;
     }
 }
 
 .part{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
     border-left: #b1c147 2px solid;
+}
+
+.part:nth-child(2) > .content{
+    text-align: center;
+
 }
 
 .thirdF{
     text-align: left;
-    display: flex;
-    align-items: center;
-}
-
-.middleThirdF{
-    margin: auto;
 }
 
 .first{
@@ -44,7 +48,6 @@
 
 .title{
     margin: auto;
-    width: 70%;
     color: #b1c147;
     font-family: 'Avenir-bold-font';
     font-size: 1.2em;
@@ -66,12 +69,13 @@
 
 .content{
     margin: auto;
-    width: 100%;
     color: #666666;
     margin: auto;
     font-family: 'Avenir-font';
     font-size: 80%;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+    padding: 0 1vw 0 1vw;
+    height: 175px;
 }
 
 .link1 a{
@@ -79,7 +83,6 @@
     margin: auto;
     width: 100%;
     color: #b1c147;
-    margin: auto;
     font-family: 'Avenir-font';
     font-size: 1.2em;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
@@ -92,7 +95,7 @@
     height: 25px;
     width: 50%;
     margin-left: auto;
-    margin-top: auto;
+    margin-top: 10vh;
 }
 
 .facebook{

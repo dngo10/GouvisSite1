@@ -6,6 +6,7 @@
 
     margin-top: 5vh;
     margin-bottom: 3vh;
+    color: rgb(99, 99, 99);
 }
 
 .lineDivider{
@@ -21,4 +22,5 @@
     width: 50vw;
     font-family: "helvetica-light";
     font-size: 1.2em;
+    text-align: center;
 }

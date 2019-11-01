@@ -8,9 +8,20 @@
     font-family: "Avenir-bold-font";
     font-size: 1em;
     color: #b1c147;
+    
 }
 
-@media screen and (max-width: 1000px){
+.portfolioMenu > p{
+    width: 100%;
+    text-align: center;
+    border-left: 2px #b1c147 solid;
+}
+
+.portfolioMenu > p:nth-child(1){
+    border-left:none;
+}
+
+@media screen and (max-width: 1250px){
     .portfolioMenu{
         width: 80%;
         font-size: 0.8em;
@@ -35,10 +46,12 @@
     transition: 0.3s;
 }
 
+/*
 .item:hover{
     cursor: pointer;
     border-bottom: 3px #b1c147 solid;
 }
+*/
 
 @keyframes underline {
     from {border-bottom: 3px white solid;}

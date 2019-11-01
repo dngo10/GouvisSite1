@@ -20,7 +20,7 @@ export class ServiceMainComponent implements OnInit {
     //Called after ngOnInit when the component's or directive's content has been initialized.
     //Add 'implements AfterContentInit' to the class.
     console.log(this.commonBanner);
-    this.commonBanner.title = "SERVICE";
+    this.commonBanner.title = "SERVICES";
     this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/ServiceBanner.jpg";
     this.cdRef.detectChanges();
   }

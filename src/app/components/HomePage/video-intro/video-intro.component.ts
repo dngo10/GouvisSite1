@@ -26,7 +26,14 @@ export class VideoIntroComponent implements OnInit {
   }
 
   onResize(event) {
-    this.width = window.innerWidth * 90 /100;
+    if(window.innerWidth >= 1280){
+      this.width = 1280;
+    } else if(window.innerWidth >= 720){
+      this.width = 720;
+    }else{
+      this.width = window.innerWidth * 80 /100;
+    }
+    
     this.height = this.width*9/16;
   }
 

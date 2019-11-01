@@ -5,3 +5,13 @@
 .divider{
     height: 10vh;
 }
+
+.catherine_more_space{
+    height: 10vh;
+    widtH: 10vw;
+    border: 1px red solid;
+}
+
+.divider1{
+    height: 15vh;
+}

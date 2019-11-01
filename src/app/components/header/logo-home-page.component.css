@@ -118,6 +118,7 @@ img{
 
 
 
+
   .DNmenuBar{
     display: flex;
     flex-direction: row;
@@ -142,13 +143,13 @@ img{
     align-items: center;  	
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1050px){
     .DNmenu1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         list-style-type: none;
         margin: auto;
-        font-family: "Avenir-font";
+        font-family: "Avenir-bold-font";
     }
     
     .DNmenuText{
@@ -165,7 +166,7 @@ img{
         text-decoration: none;    
         color: #b1c147;
         font-size: 1em;
-      	font-weight: bold;
+      	font-weight: bolder;
     }
     
     .DNmenuText li a:hover{
@@ -178,10 +179,21 @@ img{
     }
 }
 
+@media screen and (min-width: 1360px){
+  .DNmenu1 li{
+    margin-right: 3vw;
+  }
+}
+
+@media screen and (max-width: 1360px){
+  .DNmenu1 li{
+    margin-right: 0vw;
+  }
+}
 
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1070px){
     .DNminiMenu{
         height: 30px;
         margin-left: auto;
@@ -224,6 +236,7 @@ img{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 1em;
+    font-weight: 400;
     font-family: 'Avenir-bold-font';
     color: white;
     display: block;
