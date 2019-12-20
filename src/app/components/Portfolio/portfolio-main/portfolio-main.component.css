@@ -15,6 +15,7 @@
     width: 100%;
     text-align: center;
     border-left: 2px #b1c147 solid;
+    cursor: pointer;
 }
 
 .portfolioMenu > p:nth-child(1){

@@ -8,26 +8,6 @@
     margin-left: 5vw;
 }
 
-.table{
-    height: 70%;
-}
-
-.title{
-    font-family: 'Avenir-bold-font';
-    font-size: 1.1em;
-    text-align: left;
-    min-width: 100px;
-}
-
-tr:nth-child(odd){
-    height: 50%;
-}
-
-tr:nth-child(even){
-    height: 100%;
-}
-
-
 .tableData{
     text-align: left;
     margin-left: 20px;
@@ -35,6 +15,19 @@ tr:nth-child(even){
     display: flex;
     align-items: center;
 }
+
+.table{
+    height: 70%;
+    color: white;
+}
+
+.title{
+    font-family: 'Avenir-bold-font';
+    font-size: 1.1em;
+    text-align: left;
+}
+
+
 
 @media screen and (max-width: 900px){
     .title{

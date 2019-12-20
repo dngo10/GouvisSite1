@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ChangeDetectorRef } from '@angular/core';
 import { CommonBannerComponent } from '../../Common/common-banner/common-banner.component';
 import { CommonTextSloganComponent } from '../../Common/common-text-slogan/common-text-slogan.component';
+import { element } from 'protractor';
 
 @Component({
   selector: 'app-contact-main',
@@ -15,6 +16,7 @@ export class ContactMainComponent implements OnInit {
   constructor(private cdRef:ChangeDetectorRef) { }
 
   ngOnInit() {
+    this.indeedfunction("script", "indeed-apply-js");
   }
 
   ngAfterViewInit(): void {
@@ -27,6 +29,20 @@ export class ContactMainComponent implements OnInit {
     this.commonTextSloganS.content = "Throughout the years, we have worked hard to create a healthy work environment that encourages teamwork, open lines of communication and collaboration. Gouvis Engineering believes that by empowering our employees to succeed, they take personal ownership in their role and are inspired to work more efficiently and effectively.";
 
     this.cdRef.detectChanges();
+  }
+
+  indeedfunction(s: string, id: string){
+    let js: Element, iajs: Element = document.getElementsByTagName(s)[0];
+    if(document.getElementById(id))
+     return;
+    js = document.createElement(s);
+    js.id = id;
+    (js as HTMLImageElement).src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+    iajs.parentNode.insertBefore(js, iajs);
+  }
+
+  initMap(){
+
   }
 
 }

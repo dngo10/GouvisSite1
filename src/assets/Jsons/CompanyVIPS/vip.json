@@ -59,14 +59,20 @@
             "name" : "CATHERINE OVALLE",
             "title" : "Business Development Manager",
             "imageName" : "Catherine_Ovalle",
-            "description" : "Catherine is experienced in a diversified range of sales and marketing roles. As the leader of the Business Development team, Catherine contributes her expertise in sales, marketing, recruitment and graphic design. She is integral in the development and maintenance of company culture, client relations and future business opportunities Utilizing her dedicated work ehic, exceptional relationship building abilities and team oriented mentality, Catherine successfully navigates through an array of sales and marketing tasks. She is responsible for coordinating proposals, generating leads, maintaining social media presence, staffing available employment opportunities, creating marketing collateral as well as organizing company and client events. Her efforts have allowed Gouvis to execute targeted goals for the Business Development team to the highest degree and to ensure all team objectives are met daily."
+            "description" : "Catherine is experienced in a diversified range of internal development roles. As the leader of the Business Development team, Catherine contributes her expertise in sales, marketing, recruitment and graphic design. She is integral in the development and maintenance of company culture, internal procedures and client relations. Utilizing her dedicated work ethic, proficiency in design and branding, and affinity for the development of interdepartmental operating procedures, Catherine successfully navigates through an array of company development tasks. She is responsible for coordinating proposals, recruitment and staffing of employment opportunities, creating marketing collateral and media, as well as organizing company and client events. Her efforts have allowed Gouvis to execute targeted goals for the Business Development team to the highest degree."
         },
         {
             "name" : "ROBERT GOMEZ",
             "title" : "Mechanical and Plumbing Department Manager",
             "imageName" : "Robert_Gomez",
             "description" : "Robert Gomez received his Degree in Mechanical Engineering from University of California, Riverside and serves as Gouvis’s lead project manager for all plumbing system designs. As the chief Plumbing Project Manager on staff, Robert attends all pre-design and pre-construction meetings and works thoroughly to ensure designs are compliant with building standards and codes. He also manages and maintains client relations while mentoring and supervising the Plumbing Division at the company. Robert has contributed to the sophisticated plumbing system designs of a substantial number of single-family and multi-family residences, mixed-use developments and recreational centers. His strong work ethic, technical and leadership skills are of great value to Gouvis Engineering."
-        }                 
+        },
+        {
+            "name" : "Kim Herrera",
+            "title" : "Client Relations",
+            "imageName" : "Kim_Herrera",
+            "description": "Kim contributes over 15 years of industry experience to Gouvis Engineering. Kim’s role at Gouvis is integral to the growth of the firm as she is responsible for maintaining client relationships and pursuing new business opportunities with potential clients. She works diligently to coordinate and negotiate proposals to ensure scope deliverables are met with the highest level of accuracy. Kim is an excellent representation of the firm and promotes Gouvis Engineering at various industry and client events. Her proactive work ethic and keen networking ability has solidified her as a dependable resource who can be relied on to provide our clients with detailed information pertaining to our design and company standards expeditiously."
+        }          
     ],
 
     "oldPeople":[

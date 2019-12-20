@@ -1,4 +1,4 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, OnInit, Input, HostListener} from '@angular/core';
 import { Url } from 'url';
 
 @Component({
@@ -23,6 +23,11 @@ export class CommonBannerComponent implements OnInit {
     this.imagePath = path;
     //this.elementRef.nativeElement.style.setPromperty('--pictureBackgroundUrl', path);
   }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+  event.target.innerWidth;
+}
 
   
 

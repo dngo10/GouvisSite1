@@ -18,7 +18,7 @@
 }
   
   .data { grid-area: data;
-    background-color: lightgray;
+    background-color: gray;
     display: flex;
     align-items: center;
     text-align: left;
