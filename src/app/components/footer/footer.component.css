@@ -94,7 +94,7 @@
     grid-column-gap: .5vw;
     height: 25px;
     width: 50%;
-    margin-left: auto;
+    margin: auto;
     margin-top: 10vh;
 }
 

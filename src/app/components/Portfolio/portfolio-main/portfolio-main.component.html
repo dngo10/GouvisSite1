@@ -1,6 +1,16 @@
 
+<!--
+    https://cdn-b-east.streamable.com/video/mp4/aqvze.mp4?token=dwj52-By-2Hb3g74llJDiQ&expires=1578001260
+-->
 
 <div>
+    <div class="videoWrapper">
+        <video autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true" [loop]="true" height=vidHeigth width= vidWidth id="myVideo">
+            <source src="assets/Medias/Video/background_Portfolio.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>     
+
     <app-common-banner></app-common-banner>
     <div class = "portfolioMenu">
         <p class="item" (click)="allClick('all')">ALL</p>

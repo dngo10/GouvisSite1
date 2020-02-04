@@ -17,6 +17,8 @@ export class PortfolioMainComponent implements OnInit {
   showSingleFamily: boolean;
   showMultiFamily : boolean;
   itemclicked : string;
+  vidHeigth: string;
+  vidWidth: string;
 
   constructor(private cdRef:ChangeDetectorRef) {
     this.showCommercial = true;
@@ -87,7 +89,9 @@ export class PortfolioMainComponent implements OnInit {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
     //Add 'implements AfterViewInit' to the class.
     this.commonBanner.title= "PORTFOLIO";
-    this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/PortfolioBanner.jpg";
+    //this.commonBanner.imagePath = "assets/Medias/Images/BannerImages/PortfolioBanner.jpg";
+    this.vidWidth = "100%";
+    this.vidHeigth = "";
 
     this.cdRef.detectChanges();
   }

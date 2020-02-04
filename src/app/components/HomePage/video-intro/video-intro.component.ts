@@ -17,7 +17,7 @@ export class VideoIntroComponent implements OnInit {
     
   }
 
-  @Input() videoLink: string ="https://www.youtube.com/embed/hbET2TKiaEI?vq=hd1080";
+  @Input() videoLink: string;
   @Input() videoPath: SafeResourceUrl ;
 
   ngOnInit() {

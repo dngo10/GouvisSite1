@@ -12,7 +12,7 @@ export class AUImageComponent implements OnInit {
   @Input() imageName: string;
   @Input() name: string;
   @Input() title: string;
-  @Input() description: string;
+  @Input() description: Array<String>;
   constructor(private _vipService: VipSharedServiceComponent, private router: Router) {
 
   }

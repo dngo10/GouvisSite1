@@ -58,3 +58,18 @@
     from {border-bottom: 3px white solid;}
     to {border-bottom: 3px #b1c147 solid}
   }
+
+#myVideo{
+    position: absolute;
+    overflow:hidden;
+    margin: auto;
+
+}
+
+.videoWrapper{
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}

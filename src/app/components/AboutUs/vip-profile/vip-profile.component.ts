@@ -11,7 +11,7 @@ export class VipProfileComponent implements OnInit {
   name: string;
   imageName: string;
   title: string;
-  description: string;
+  description: Array<String>;
 
 
   constructor(_vipSe : VipSharedServiceComponent) {

@@ -11,7 +11,7 @@ export class MagazineGridComponent implements OnInit {
 
   magazineDict : Map<string,string>;
   thumbNailPath: string;
-  items: QueryList<magazineInfo>;
+  items: Array<magazineInfo>;
 
   constructor(private cdRef:ChangeDetectorRef) {
   }
@@ -20,22 +20,24 @@ export class MagazineGridComponent implements OnInit {
     this.magazineDict = new Map<string,string>();
 
     magazinejson["default"]["data"].forEach(element => {
-      if(element["key"] != "ilink" && element["key"] != "comment"){
+      if(element["key"] != "ilink" && element["key"] != "comment" && element["keyNONEED"] == undefined){
         this.magazineDict.set(element["key"], element["value"]);
       } else if(element["key"] == "ilink"){
         this.thumbNailPath = element["value"];
       }
     });
 
-    this.items = new QueryList<magazineInfo>();
+    this.items = new Array<magazineInfo>();
 
     let i : number = 0;
     this.magazineDict.forEach((value: string, key: string) => {
       //console.log(this.magazines);
       let  magInfo = new magazineInfo(value, key, value + this.thumbNailPath);
-      this.items.reset([...this.items.toArray(), magInfo]);
+      this.items.push(magInfo);
       i++;
     });
+
+    this.items = this.items.reverse();
     //this.cdRef.detectChanges();
   }
 

@@ -29,9 +29,9 @@ class vipInfo{
   name: string;
   title: string;
   imageName: string;
-  description: string;
+  description: Array<String>;
 
-  constructor(name: string, title: string, imageName: string, description: string) {
+  constructor(name: string, title: string, imageName: string, description: Array<String>) {
     this.name = name;
     this.title = title;
     this.imageName = imageName;

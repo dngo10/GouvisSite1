@@ -1,4 +1,6 @@
 .gridImage {
+    position: relative;
+    top: 100px;
     display: grid;
     height: 1200px;
     grid-gap: 10px;
@@ -11,6 +13,7 @@
                          "div1 div1 div1 div3"
                          "data data div2 div2"
                          "data data div2 div2";
+    margin-bottom: 120px;
   }
   
   .imgBackGround:nth-child(1) { grid-area: div1; 

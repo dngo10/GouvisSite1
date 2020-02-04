@@ -13,7 +13,7 @@ export class VipSharedServiceComponent implements OnInit {
   name: string;
   title: string;
   imageName: string;
-  description: string;
+  description: Array<String>;
 
   constructor(private router: Router) {
     if(this.description == undefined){

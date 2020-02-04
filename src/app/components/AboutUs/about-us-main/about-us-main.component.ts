@@ -19,7 +19,7 @@ export class AboutUsMainComponent implements OnInit {
     },
     {
       title: "COMPANY CULTURE",
-      content: "Our shared interests and team building activities help us develop relationships that strengthen our bonds and create a space where trust and teamwork are at the pulse of our office culture." 
+      content: "Our shared interests and team building activities help us develop relationships that strengthen our bonds and create a space where trust and teamwork are at the pulse of our office culture. We host multiple annual events which are designed to create a space where family, friends and colleagues can come together in an inclusive environment. Our traditions and annual activities are an important component of our company's legacy." 
     },
     {
       title: "ANNUAL COMPANY EVENTS",
