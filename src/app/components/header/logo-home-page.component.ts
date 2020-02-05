@@ -21,7 +21,5 @@ export class LogoHomePageComponent implements OnInit {
     document.getElementById("DNmySidenav").style.width = "250px";
     document.getElementById("DNmySidenav").style.borderLeft = "#afb9b2 0.5vw solid";
   }
-
-
 }
 
