@@ -18,6 +18,11 @@
     margin-top: 5vh;
 }
 
+.email{
+    color: lightgray;
+    font-style: italic;
+}
+
 .combo > div{
     width: 80%;
 }
