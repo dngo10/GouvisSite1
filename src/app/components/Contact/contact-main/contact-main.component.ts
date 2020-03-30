@@ -10,8 +10,8 @@ import { element } from 'protractor';
 })
 export class ContactMainComponent implements OnInit {
 
-  @ViewChild(CommonBannerComponent, {static: false}) commonBanner: CommonBannerComponent;
-  @ViewChild(CommonTextSloganComponent, {static: false}) commonTextSloganS: CommonTextSloganComponent;
+  @ViewChild(CommonBannerComponent) commonBanner: CommonBannerComponent;
+  @ViewChild(CommonTextSloganComponent) commonTextSloganS: CommonTextSloganComponent;
 
   constructor(private cdRef:ChangeDetectorRef) { }
 

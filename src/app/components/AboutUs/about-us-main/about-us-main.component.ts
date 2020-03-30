@@ -9,7 +9,7 @@ import { CommonTextSloganComponent } from '../../Common/common-text-slogan/commo
 })
 export class AboutUsMainComponent implements OnInit {
 
-  @ViewChild(CommonBannerComponent, {static: false}) commonBanner: CommonBannerComponent;
+  @ViewChild(CommonBannerComponent) commonBanner: CommonBannerComponent;
   @ViewChildren(CommonTextSloganComponent) slogans: QueryList<CommonTextSloganComponent>; 
 
   arr : sloganClass[] = [

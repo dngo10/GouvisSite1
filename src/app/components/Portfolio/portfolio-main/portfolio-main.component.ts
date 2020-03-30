@@ -9,7 +9,7 @@ import { CommonBannerComponent } from '../../Common/common-banner/common-banner.
 })
 export class PortfolioMainComponent implements OnInit {
 
-  @ViewChild(CommonBannerComponent, {static: false}) commonBanner: CommonBannerComponent;
+  @ViewChild(CommonBannerComponent) commonBanner: CommonBannerComponent;
 
   showCommercial: boolean;
   showCustom : boolean;

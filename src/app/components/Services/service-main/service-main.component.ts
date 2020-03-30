@@ -10,7 +10,7 @@ import { ChildActivationEnd } from '@angular/router';
 })
 export class ServiceMainComponent implements OnInit {
 
-  @ViewChild(CommonBannerComponent, {static: false}) commonBanner: CommonBannerComponent;
+  @ViewChild(CommonBannerComponent) commonBanner: CommonBannerComponent;
   constructor(private cdRef:ChangeDetectorRef) {}
   
   ngOnInit() {

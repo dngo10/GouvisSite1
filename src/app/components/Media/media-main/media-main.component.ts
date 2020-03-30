@@ -11,7 +11,7 @@ import { Content } from '@angular/compiler/src/render3/r3_ast';
 
 export class MediaMainComponent implements OnInit {
 
-  @ViewChild(CommonBannerComponent, {static: false}) commonBanner: CommonBannerComponent;
+  @ViewChild(CommonBannerComponent) commonBanner: CommonBannerComponent;
   @ViewChildren(CommonTextSloganComponent) commonTextSloganS: QueryList<CommonTextSloganComponent>;
 
   arr : sloganClass[] = [
