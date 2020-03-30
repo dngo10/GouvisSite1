@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "GouvisSite1"
+  "defaultProject": "GouvisSite1",
+  "cli": {
+    "analytics": "6455f762-761d-4ba3-b0fe-5bc66177c789"
+  }
 }
