@@ -49,7 +49,8 @@ import { PortfolioMixedUseComponent } from './components/Portfolio/portfolio-mix
 import { PortfolioSingleFamilyComponent } from './components/Portfolio/portfolio-single-family/portfolio-single-family.component';
 import { PortfolioMultiFamilyComponent } from './components/Portfolio/portfolio-multi-family/portfolio-multi-family.component';
 import { PortfolioCustomComponent } from './components/Portfolio/portfolio-custom/portfolio-custom.component';
-import { PortfolioProjectDetailComponent } from './components/Portfolio/portfolio-project-detail/portfolio-project-detail.component'; 
+import { PortfolioProjectDetailComponent } from './components/Portfolio/portfolio-project-detail/portfolio-project-detail.component';
+import { NewauculturegridimageComponent } from './components/AboutUs/newauculturegridimage/newauculturegridimage.component'; 
 
 
 @NgModule({
@@ -99,7 +100,8 @@ import { PortfolioProjectDetailComponent } from './components/Portfolio/portfoli
     PortfolioSingleFamilyComponent,
     PortfolioMultiFamilyComponent,
     PortfolioCustomComponent,
-    PortfolioProjectDetailComponent
+    PortfolioProjectDetailComponent,
+    NewauculturegridimageComponent
   ],
   imports: [
     BrowserModule,

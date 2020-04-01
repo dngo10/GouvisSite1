@@ -1,0 +1,30 @@
+.imageGrid{
+    margin: auto;
+    width: 80vw;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin-top: 10vh;
+}
+
+.imageBG:nth-child(1){
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Culture/culture2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.imageBG:nth-child(2){
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Culture/culture4.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imageBG:nth-child(3){
+    background-image: url('../../../../assets/Medias/Images/AboutUs/Culture/AboutUs1.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
