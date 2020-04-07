@@ -50,7 +50,8 @@ import { PortfolioSingleFamilyComponent } from './components/Portfolio/portfolio
 import { PortfolioMultiFamilyComponent } from './components/Portfolio/portfolio-multi-family/portfolio-multi-family.component';
 import { PortfolioCustomComponent } from './components/Portfolio/portfolio-custom/portfolio-custom.component';
 import { PortfolioProjectDetailComponent } from './components/Portfolio/portfolio-project-detail/portfolio-project-detail.component';
-import { NewauculturegridimageComponent } from './components/AboutUs/newauculturegridimage/newauculturegridimage.component'; 
+import { NewauculturegridimageComponent } from './components/AboutUs/newauculturegridimage/newauculturegridimage.component';
+import { SixtyYearsPopUpComponent } from './components/PopUp/sixty-years-pop-up/sixty-years-pop-up.component'; 
 
 
 @NgModule({
@@ -101,7 +102,8 @@ import { NewauculturegridimageComponent } from './components/AboutUs/newaucultur
     PortfolioMultiFamilyComponent,
     PortfolioCustomComponent,
     PortfolioProjectDetailComponent,
-    NewauculturegridimageComponent
+    NewauculturegridimageComponent,
+    SixtyYearsPopUpComponent
   ],
   imports: [
     BrowserModule,
