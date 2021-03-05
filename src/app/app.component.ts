@@ -1,7 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import {fromEvent} from 'rxjs/observable/fromEvent';
+//import {fromEvent} from 'rxjs/observable/fromEvent';
 import {Observable} from 'rxjs/Observable';
 import {Subscription} from 'rxjs/Subscription';
+
 
 @Component({
   selector: 'app-root',
@@ -18,8 +19,9 @@ export class AppComponent implements OnInit, OnDestroy{
     this.changeSize();
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
-    this.resizeObservable$ = fromEvent(window, 'resize');
+    //this.resizeObservable$ = fromEvent(window, 'resize');
     this.resizeSubscription = this.resizeObservable$.subscribe(size => this.changeSize());
+
   }
 
   title = 'GouvisWebsite';

@@ -51,8 +51,10 @@ import { PortfolioMultiFamilyComponent } from './components/Portfolio/portfolio-
 import { PortfolioCustomComponent } from './components/Portfolio/portfolio-custom/portfolio-custom.component';
 import { PortfolioProjectDetailComponent } from './components/Portfolio/portfolio-project-detail/portfolio-project-detail.component';
 import { NewauculturegridimageComponent } from './components/AboutUs/newauculturegridimage/newauculturegridimage.component';
-import { SixtyYearsPopUpComponent } from './components/PopUp/sixty-years-pop-up/sixty-years-pop-up.component'; 
-
+import { SixtyYearsPopUpComponent } from './components/PopUp/sixty-years-pop-up/sixty-years-pop-up.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { VideoCarouselComponent } from './components/HomePage/video-carousel/video-carousel.component'; 
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -103,13 +105,16 @@ import { SixtyYearsPopUpComponent } from './components/PopUp/sixty-years-pop-up/
     PortfolioCustomComponent,
     PortfolioProjectDetailComponent,
     NewauculturegridimageComponent,
-    SixtyYearsPopUpComponent
+    SixtyYearsPopUpComponent,
+    VideoCarouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule,
+    YouTubePlayerModule,
   ],
   providers: [
     VipSharedServiceComponent,

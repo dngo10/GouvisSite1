@@ -1,0 +1,41 @@
+<!-- Slideshow container -->
+
+<div class="slideshow-container">
+    <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade" (window:resize)="onResize($event)">
+      <youtube-player
+        #player
+        videoId= "C1IBWmo8RgM"
+        [width]="1920"
+        [height]="1080"
+        [suggestedQuality]="large"
+        (ready) = "onReady($event)"
+      >
+      </youtube-player>
+    </div>
+
+    
+  
+    <div class="mySlides fade" (window:resize)="onResize($event)">
+      <youtube-player
+        #player1
+        videoId= "3tfjH1OaUgs"
+        [width]="1920"
+        [height]="1080"
+        [suggestedQuality]="large"
+        (ready) = "onReady($event)"
+      >
+    </youtube-player>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="next" (click)="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" (click)="currentSlide(1)"></span>
+    <span class="dot" (click)="currentSlide(2)"></span>
+  </div>

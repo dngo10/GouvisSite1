@@ -1,125 +1,5 @@
-img{
-  max-width: 100%;
-  max-height: auto;
-}
 
-.MenuBar{
-  top: 10vh;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  height: 100px;
-  border-bottom: #b1c147 2px solid;
-}
-
-.logo{
-  z-index: 1;
-  cursor:pointer;
-  margin-left: 5vw;
-  width: 300px;
-}
-
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    right: 0;
-    background-color: #b1c147;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    border-left: #afb9b2 0vw solid;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #333333;
-    display: block;
-    transition: 0.3s;
-    padding-top: 10vh;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    font-size: 36px;
-    padding-top: 10vh;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-  @media only screen and (max-width: 480px){
-    .logo >img:nth-child(1) {
-      display: none;
-    }
-
-    .logo >img:nth-child(2){
-      height: 50px;
-    }
-
-    .menu{
-      margin-left: auto;
-      max-width: auto;
-    }
-
-  }
-
-  .menu{
-    margin-right: 10vw;
-    z-index: 1;
-    cursor:pointer;
-    margin-left: auto;
-    width: 30px;
-  }
-
-
-  @media only screen and (min-width: 481px){
-      .logo>img:nth-child(2){
-        display: none;
-      }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .DNmenuBar{
+.DNmenuBar{
     display: inline-flex;
     flex-direction: row;
     align-items: center;
@@ -146,18 +26,17 @@ img{
     align-items: center;  	
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1300px){
     .DNmenu1{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         list-style-type: none;
-        margin: auto;
         font-family: "Avenir-bold-font";
     }
     
     .DNmenuText{
-		margin: auto;
-
+		  margin: auto;
+      margin-right: 7vw;
     }
     
     .DNmenuText li{
@@ -181,13 +60,13 @@ img{
     }
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1300px){
   .DNmenu1 li{
     margin-right: 3vw;
   }
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1300px){
   .DNmenu1 li{
     margin-right: 0vw;
   }
@@ -195,7 +74,7 @@ img{
 
 
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1300px){
     .DNminiMenu{
         height: 30px;
         margin-left: auto;
