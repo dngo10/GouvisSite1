@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { Event } from '@angular/router';
 import { YouTubePlayer } from '@angular/youtube-player';
 
 @Component({
@@ -67,25 +68,25 @@ export class VideoCarouselComponent implements OnInit {
   ngAfterViewInit(): void {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
     //Add 'implements AfterViewInit' to the class.
-    this.onResize();
+    this.onResize(undefined);
   }
 
-  onReady(){
+  onReady(event:Event){
 
     this.player.pauseVideo();
     this.player1.pauseVideo();
   }
 
-  onResize(){
+  onResize(event:Event){
     
 
-    if(window.innerWidth >= 1500){
-      this.player.width = 1500;
-    } else if(window.innerWidth >= 720){
-      this.player.width = 720;
-    }else{
+    //if(window.innerWidth >= 1500){
+    //  this.player.width = 1500;
+    //} else if(window.innerWidth >= 720){
+    //  this.player.width = 720;
+    //}else{
       this.player.width = window.innerWidth * 80 /100;
-    }
+    //}
     
     this.player.height = this.player.width*9/16; 
     this.player1.width = this.player.width;
