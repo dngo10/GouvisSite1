@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="cursor1">
+        <p (click)="CursorClick(-1)">❰</p>
+    </div>
+    <div class="sliderContainer">
+        <div class="wraper" [ngStyle]="wrapperStyle()">
+            <div class = slider *ngFor="let video of videos; let i=index"
+            >
+                <youtube-player
+                    #player
+                    [videoId] = "video.videoId"
+                >
+                </youtube-player>
+            </div>
+
+        </div>
+    </div>
+    <div class="cursor2">
+        <p (click)="CursorClick(1)">❱</p>
+    </div>
+</div>
+
+<div class="dot-indicator">
+    <div class="dot-box">
+        <div class = "slider" *ngFor="let dotts of numberOfDot; let i=index">
+            <div class="dot" (click)="dotClicked(i)"></div>
+        </div>
+    </div>
+
+</div>
+
+
+

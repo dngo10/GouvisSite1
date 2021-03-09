@@ -1,0 +1,85 @@
+.slider{
+    display: inline;
+    align-content: center;
+    padding-right: 1vw;
+}
+
+.wraper{
+    position: relative;
+}
+
+.sliderContainer{
+    position: relative;
+    width: 80vw;
+    height: calc(80*9/16)vw;
+    overflow: hidden;
+}
+
+.cursor1{
+    color:#b1c147;
+    margin: auto;
+    width:10vw;
+}
+
+.cursor1 > p {
+    margin: auto;
+    text-align: right;
+    font-size: 5em;
+    margin-right: 1vw;
+}
+
+.cursor1 > p:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.cursor2{
+    color: #b1c147;
+    margin: auto;
+    width:10vw;
+}
+
+.cursor2 > p:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+
+.cursor2 > p {
+    margin: auto;
+    text-align: left;
+    font-size: 5em;
+    margin-left: 1vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dot{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
+    margin-top: 1vw;
+    border: 2px solid #b1c147;
+}
+
+.dot-box{
+    position: relative;
+    margin: auto;
+    padding-left: 1vw;
+}
+
+.dot-indicator{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}

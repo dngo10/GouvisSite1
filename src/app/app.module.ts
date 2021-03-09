@@ -55,6 +55,7 @@ import { SixtyYearsPopUpComponent } from './components/PopUp/sixty-years-pop-up/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VideoCarouselComponent } from './components/HomePage/video-carousel/video-carousel.component'; 
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { VideoSliderComponent } from './components/HomePage/video-slider/video-slider.component';
 
 @NgModule({
   declarations: [
@@ -107,6 +108,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     NewauculturegridimageComponent,
     SixtyYearsPopUpComponent,
     VideoCarouselComponent,
+    VideoSliderComponent,
   ],
   imports: [
     BrowserModule,
