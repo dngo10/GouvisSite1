@@ -60,7 +60,7 @@ export class VideoSliderComponent implements OnInit, AfterViewInit {
       this.videos[i].video.height = height;
     }
 
-    this.wrapperMove = this.getStep(width) + 2*(width + this.vw100/100);
+    this.wrapperMove = this.getStep(width);
   }
 
   wrapperStyle(){
@@ -70,12 +70,14 @@ export class VideoSliderComponent implements OnInit, AfterViewInit {
     return styles;
   }
 
-  CursorClick(){}
-
   getStep(width: number){
     let initPosition = this.vw100/10 + width*1.5 + this.vw100/100;
     let requiredPosition = window.innerWidth/2;
     return initPosition - requiredPosition;
+  }
+
+  CursorClick(num: number): void{
+    this.wrapperMove += num*(this.vw100/100 + this.videos[0].video.width);
   }
 
 }
