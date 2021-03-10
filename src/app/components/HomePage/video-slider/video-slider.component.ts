@@ -47,25 +47,11 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
     tag.src = "https://www.youtube.com/iframe_api";
     document.body.appendChild(tag);
 
-    this.vw100 = window.innerWidth;
-    this.vw80 = this.vw100/100*80;
-
-    this.video_width = this.vw100/2;
-    this.video_height = this.video_width/16*9;
-    if(this.video_height > window.innerHeight){
-      this.video_height = window.innerHeight;
-      this.video_width = this.video_height/9*16;
-    }
-
-    this.wrapperWith = (this.video_width + this.vw100/100)*(this.videos.length+4);
-    //this.padding_left = this.video_width/2 + this.vw100/100;
-    this.padding_left = 0;
-    this.video_wrapper_initPosition = this.initPosition();
-    this.wrapperMove = this.video_wrapper_initPosition;
+    this.onResize(null);
   }
 
   ngAfterViewInit():  void {
-    console.log(this.youtubeVideos.length);
+    
     this.youtubeVideos.forEach((item,index) =>{
       this.videos[index].video = item;
       console.log("item " + item);
@@ -123,7 +109,7 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
     const style={
       'display': 'inline-block',
       'margin-right': '1vw',
-      'width': `${this.video_width}px`,
+      'width': `${this.video_width - this.vw100/100}px`,
       'height': `${this.video_height}px`,
       'background-color': `#b1c147`,
     }
@@ -184,6 +170,33 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
       num = this.videos.length + 2;
     }
     return num;
+  }
+
+  private onResize(event: Event){
+    this.vw100 = window.innerWidth;
+    this.vw100 = window.innerWidth;
+    this.vw80 = this.vw100/100*80;
+
+    this.video_width = this.vw100/1.8;
+    this.video_height = this.video_width/16*9;
+    if(this.video_height > window.innerHeight){
+      this.video_height = window.innerHeight;
+      this.video_width = this.video_height/9*16;
+    }
+
+    this.wrapperWith = (this.video_width + this.vw100/100)*(this.videos.length+4);
+    //this.padding_left = this.video_width/2 + this.vw100/100;
+    this.padding_left = 0;
+    this.video_wrapper_initPosition = this.initPosition();
+    this.wrapperMove = this.video_wrapper_initPosition;
+    this.currentIndex = this.get_presentation_point();
+    this.current_dot = this.videos[this.currentIndex].id;   
+
+    for(let i = 0; i < this.videos.length; i++){
+      if(this.videos[i].video){
+        this.videos[i].video.pauseVideo();
+      }
+    }
   }
 }
 
