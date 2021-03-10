@@ -20,7 +20,7 @@ export class AppComponent implements OnInit, OnDestroy{
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
     //this.resizeObservable$ = fromEvent(window, 'resize');
-    this.resizeSubscription = this.resizeObservable$.subscribe(size => this.changeSize());
+    //this.resizeSubscription = this.resizeObservable$.subscribe(size => this.changeSize());
 
   }
 

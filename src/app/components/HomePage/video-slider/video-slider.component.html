@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" *ngIf="youtubeVideos != null">
     <div class="cursor1">
         <p (click)="CursorClick(-1)">❰</p>
     </div>
@@ -6,9 +6,11 @@
         <div class="wraper" [ngStyle]="wrapperStyle()">
             <div class = slider *ngFor="let video of videos; let i=index"
             >
-                <youtube-player
+                <youtube-player *ngIf="video"  class = youtube_object
                     #player
                     [videoId] = "video.videoId"
+                    [width] = video_width
+                    [height] = video_height
                 >
                 </youtube-player>
             </div>
@@ -23,10 +25,9 @@
 <div class="dot-indicator">
     <div class="dot-box">
         <div class = "slider" *ngFor="let dotts of numberOfDot; let i=index">
-            <div class="dot" (click)="dotClicked(i)"></div>
+            <div class="dot" (click)="dotClicked()" [ngStyle]="dotStyle(i)"></div>
         </div>
     </div>
-
 </div>
 
 
