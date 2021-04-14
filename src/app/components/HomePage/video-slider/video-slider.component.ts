@@ -3,8 +3,8 @@ import { YouTubePlayer } from '@angular/youtube-player';
 
 @Component({
   selector: 'app-video-slider',
-  templateUrl: './video-slider.component.html',
-  styleUrls: ['./video-slider.component.css']
+  templateUrl: 'video-slider.component.html',
+  styleUrls: ['video-slider.component.css']
 })
 export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContentInit {
 
@@ -172,7 +172,7 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
     return num;
   }
 
-  private onResize(event: Event){
+  public onResize(event: Event){
     this.vw100 = window.innerWidth;
     this.vw100 = window.innerWidth;
     this.vw80 = this.vw100/100*80;
