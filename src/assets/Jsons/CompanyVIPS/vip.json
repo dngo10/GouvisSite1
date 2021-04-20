@@ -73,7 +73,25 @@
             "title" : "Director of Sales/Client Relations",
             "imageName" : "Kim_Herrera",
             "description": ["With over 20 years of industry experience, Kim’s role at Gouvis is integral to the growth of the firm as she is responsible for maintaining client relationships and pursuing new business opportunities with potential clients. She works diligently to coordinate and negotiate proposals to ensure scope deliverables are met with the highest level of accuracy. Since joining Gouvis Engineering in 2011, she has utilized her experience and hard-working attitude to promote Structural and MEP Engineering services to increasingly drive sales year after year. Kim is an excellent representation of the firm and promotes Gouvis Engineering at various industry and client events throughout California. Her proactive work ethic and keen networking ability has solidified her as a dependable resource who can be relied on to provide our clients with detailed information pertaining to our design and company standards."]
-        }          
+        },
+        {
+            "name" : "Rade Babic",
+            "title" : "Technical Director - Mechanical and Plumbing",
+            "imageName" : "Rade_Babic",
+            "description": ["Rade is a licensed P.E. with over 15 years of experience within the building industry. He received his Bachelor’s degree in Mechanical Engineering from the University of Novi Sad, Serbia. Rade’s extensive technical knowledge in the design of Plumbing and HVAC systems has earned him the role of Technical Director of the Mechanical and Plumbing disciplines. Rade serves as a mentor to team members, being tasked with the projects that require a high level of design experience. He is also responsible for reviewing team member’s drawings and consulting with Gouvis’ MEP Department Directors to address complex design challenges."]
+        },
+        {
+            "name" : "Mehdi Hosseinzadeh",
+            "title" : "Team Lead - Electrical Department",
+            "imageName" : "Mehdi_Hosseinzadeh",
+            "description": ["Mehdi is a licensed P.E. with over 10 years of experience within the building industry. Mehdi’s educational background includes his Master’s degree in Electrical Engineering from Ferdowsi University of Mashhad, his Master’s degree in Project Management from Penn State University, as well as his Doctoral of Engineering Management from The George Washington University. Mehdi’s technical expertise as well as his commitment to consistency and quality in the design process has elevated him into a leadership position within Gouvis’ MEP Department. As the Electrical Team Leader, Mehdi is responsible for managing the design process of all Electrical Department projects as well as training and mentoring all electrical team members."]
+        }, 
+        {
+            "name" : "Larry Cavanaugh",
+            "title" : "MEP Department Director",
+            "imageName" : "Larry_Cavanaugh",
+            "description": ["Larry is a licensed P.E. and Director within the MEP Department. Larry attended the University of California, Irvine where he earned his Bachelor of Science in Mechanical Engineering. Larry’s diligence in his design work and his ability to create positive relationships with clients and internal team members has quickly elevated his role within Gouvis’ MEP Department. Larry’s responsibilities include the design and coordination of mechanical and plumbing drawings, delegation of projects within the MEP Department, addressing comments from city plan check, attending client meetings and site visits to ensure the quality and consistency of the design application at the construction site. Larry’s presence within the MEP Department has greatly improved the overall structure, quality and consistency within the MEP department."]
+        }
     ],
 
     "oldPeople":[
