@@ -2,46 +2,46 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
-    width: 1230px;
+    width: 1350px;
     margin: auto;
 }
 
-@media only screen and (min-width: 1285px){
+@media only screen and (min-width: 1350){
     .vipImages{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
-        width: 1230px;
+        
         margin: auto;
     }
 }
 
-@media only screen and (max-width: 1285px){
+@media only screen and (max-width: 1350px){
     .vipImages{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
-        width: 920px;
+        width: 1010px;
         margin: auto;
     }   
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 1010px){
     .vipImages{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
-        width: 610px;
+        width: 670px;
         margin: auto;
     }      
 }
 
-@media only screen and (max-width: 630px){
+@media only screen and (max-width: 670px){
     .vipImages{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
-        width: 300px;
+        width: 330px;
         margin: auto;
     }        
 }
