@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as portfolioData from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
+import {default as portfolioData} from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
 
 @Component({
   selector: 'app-portfolio-custom',
@@ -18,7 +18,8 @@ export class PortfolioCustomComponent implements OnInit {
 
 
   ngOnInit() {
-    let i = 0;
+    //console.log(portfolioData.data);
+
     portfolioData.data.forEach(
       element =>{  
         if(this.type == element["type"]){
@@ -33,7 +34,7 @@ export class PortfolioCustomComponent implements OnInit {
         }
       }
     );
-    console.log(this.items);
+    //console.log(this.items);
   }
 }
 

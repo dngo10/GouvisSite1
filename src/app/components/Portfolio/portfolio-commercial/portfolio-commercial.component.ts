@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as portfolioData from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
+import {default as portfolioData} from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
 import { PortfolioSharedServiceComponent } from '../../Common/portfolio-shared-service/portfolio-shared-service.component.js';
 
 
@@ -35,7 +35,7 @@ export class PortfolioCommercialComponent implements OnInit {
         }
       }
     );
-    console.log(this.items);
+    //console.log(this.items);
   }
 }
 

@@ -1,0 +1,374 @@
+{
+    "data":
+    [
+        {
+            "project" : "ABC 3.0",
+            "location": "Fullerton, California",
+            "description" : "The ABC Green Home 3.0 in Fullerton, California is a showcase of high-performance building design and 21st-century construction techniques.",
+            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
+            "type" : "custom",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/custom/ABC_House.jpg"
+            ]
+        },
+
+        {
+            "project" : "Blue Jay",
+            "location": "Hollywood Hills, California",
+            "description" : "A custom home in the city of Hollywood Hills.",
+            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
+            "type" : "custom",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/custom/Blue_Jay1.jpg",
+                "assets/Medias/Images/PortfolioImages/custom/Blue_Jay2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Megonigal",
+            "location": "Corona Del Mar, California",
+            "description" : "A custom home",
+            "services" : "Structural",
+            "type" : "custom",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/custom/Corona_Del_Mar_Custom.jpg",
+                "assets/Medias/Images/PortfolioImages/custom/megonigal_residence.jpg",
+                "assets/Medias/Images/PortfolioImages/custom/megonigal_residence_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Schneider Residence",
+            "location": "Newport Beach, California",
+            "description" : "A custom home",
+            "services" : "Engineering for Structural",
+            "type" : "custom",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/custom/Schneider_Residence_David_Olson_Architects.jpg",
+                "assets/Medias/Images/PortfolioImages/custom/Schneider_Residence_2_David_Olson_Architects.jpg"
+            ]
+        },
+
+        {
+            "project" : "Westgate",
+            "location": "Rancho Mirage, California",
+            "description" : "A custom home at Mission Hills",
+            "services" : "Engineering for Structural",
+            "type" : "custom",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/custom/Westgate_at_Mission_Hills_2.jpg",
+                "assets/Medias/Images/PortfolioImages/custom/Westgate_at_Mission_Hills_Country_Club.jpg"
+            ]
+        },
+
+        {
+            "project" : "Cambria Hotel",
+            "location": "Orlando, Florida",
+            "description" : "A 153 Room Key Hotel",
+            "services" : "Engineering for Structural, Mechanical, Plumbing, and Title 24",
+            "type" : "commercial",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/commercial/orlando-cambria.jpg",
+                "assets/Medias/Images/PortfolioImages/commercial/orlando-cambria1-1.jpg"
+            ]
+        },
+
+        {
+            "project" : "Kimpton Hotel",
+            "location": "San Juan Capistrano, California",
+            "description" : "A 102 Room Hotel",
+            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, and Title 24",
+            "type" : "commercial",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/commercial/Kimpton_Hotel.jpg"
+            ]
+        },
+
+        {
+            "project" : "Georgian at Lakeside",
+            "location": "Roswell, Georgia",
+            "description" : "An Assisted Living Facility",
+            "services" : "Engineering for Structural, Mechanical, Electrical, and Plumbing",
+            "type" : "commercial",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/commercial/Georgian.jpg",
+                "assets/Medias/Images/PortfolioImages/commercial/Georgian_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Hellman Medical",
+            "location": "Monterey Park, California",
+            "description" : "A Medical Building",
+            "services" : "Engineering for Structural",
+            "type" : "commercial",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/commercial/Hellman_Medical.jpg",
+                "assets/Medias/Images/PortfolioImages/commercial/Hellman_Medical_2.jpg"
+            ]
+        },
+
+
+        {
+            "project" : "AMLI Uptown",
+            "location": "city of Orange, California",
+            "description" : "A 334 Unit Apartment Complex",
+            "services" : "Engineering for Structural Calculations and Drafting",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/AMPLI_UPTOWN.jpg",
+                "assets/Medias/Images/PortfolioImages/mixed_used/AMPLI_UPTOWN_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Little Tokyo",
+            "location": "Los Angeles, California",
+            "description" : "A 77 Unit Condominium Complex",
+            "services" : "Engineering for Structural",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/LITTLE_TOKYO.jpg",
+                "assets/Medias/Images/PortfolioImages/mixed_used/LITTLE_TOKYO_2.jpg"
+            ]
+        },
+
+        
+        {
+            "project" : "The One",
+            "location": "San Gabriel, California",
+            "description" : "An 81 Unit Mixed Use Project",
+            "services" : "Engineering for Structural, Mechanical, Electrical, Plumbing, Title 24, and Site Lighting",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/The_One.jpg"
+            ]
+        },
+
+        {
+            "project" : "Northridge Mixed Use",
+            "location": "Northridge, California",
+            "description" : "A 429 Unit Mixed Use Project",
+            "services" : "Engineering for Structural",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/Northridge_Mixed_Use.jpg",
+                "assets/Medias/Images/PortfolioImages/mixed_used/Northridge_Mixed_Use_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "The Line",
+            "location": "Santa Ana, California",
+            "description" : "A 228 Unit Apartment Complex",
+            "services" : "Engineering for Structural",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/The_Line.jpg",
+                "assets/Medias/Images/PortfolioImages/mixed_used/The_Line_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Variel",
+            "location": "Los Angeles, California",
+            "description" : "A 232 Unit Apartment Complex",
+            "services" : "Engineering for Structural",
+            "type" : "mixed-use",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/mixed_used/Variel.jpg"
+            ]
+        },
+
+        {
+            "project" : "Revelle Clancy Lane",
+            "location": "Rancho Mirage, California",
+            "description" : "A 32 Unit Residential Development",
+            "services" : "Engineering for Structural, MEP, T-24 & Post Tension",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Revelle_at_Clancy_Lane.jpg"
+            ]
+        },
+
+        
+        {
+            "project" : "Palisades Apartments",
+            "location": "Corona, California",
+            "description" : "A 288 Unit Apartment Complex",
+            "services" : "Mechanical, Electrical, Site Lighting and Plumbing design and layouts",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Palisades_Corona.jpg"
+            ]
+        },
+
+        {
+            "project" : "Ivy Terrace",
+            "location": "Patterson, California",
+            "description" : "A 1 Unit Condominium Complex",
+            "services" : "Engineering for Post Tension",
+            "type" : "multi-family",
+            "imagelink": [
+              "assets/Medias/Images/PortfolioImages/multi_family/Ivy_Terrace.jpg"
+            ]
+        },
+
+        {
+            "project" : "Royal Oaks Courtyard Villas",
+            "location": "Houston, Texas",
+            "description" : "A 24 Unit Condominium Complex and 56 unit single family",
+            "services" : "Engineering for Structural, T-24, Post Tension & MEP",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Royal_Oaks_Courtyard_Villas.jpg"
+            ]
+        },
+
+        {
+            "project" : "Harland",
+            "location": "West Hollywood, California",
+            "description" : "A 50 Unit Condominium Complex",
+            "services" : "Engineering for Structural, T-24 & MEP",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Harland_1.jpg",
+                "assets/Medias/Images/PortfolioImages/multi_family/Harland_2.jpg"
+            ]
+        },
+
+
+
+        {
+            "project" : "Veranda",
+            "location": "Rancho Mission Viejo, California",
+            "description" : "A 86 Unit Condominium Complex",
+            "services" : "Engineering for Structural",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Veranda.jpg",
+                "assets/Medias/Images/PortfolioImages/multi_family/Veranda_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Camden",
+            "location": "Playa Vista, California",
+            "description" : "A 1 Unit Condominium Complex",
+            "services" : "Engineering for Structural, MP & Post Tension",
+            "type" : "multi-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/multi_family/Camden_at_Playa_Vista.jpg",
+                "assets/Medias/Images/PortfolioImages/multi_family/Camden_at_Playa_Vista_2.jpg"
+            ]
+        },
+
+        {
+            "project" : "Skye",
+            "location": "Palm Springs, California",
+            "description" : "A Residential Development",
+            "services" : "Engineering for Mechanical, Plumbing, and Electrical Load Calculations",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Skye_Palm_Springs.jpg"
+            ]
+        },
+
+        {
+            "project" : "Covenant Hills",
+            "location": "Rancho Mission Viejo, California",
+            "description" : "A 1 Unit Residential Development",
+            "services" : "Engineering for Structural, Post Tension, Mechanical, Electrical, Plumbing, and Title 24",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Covenant_Hills.jpg"
+            ]
+        },
+
+        {
+            "project" : "Harvest Villages",
+            "location": "Jurupa Valley, California",
+            "description" : "A 93 Unit Residential Development",
+            "services" : "Engineering for Structural and Plumbing Isometric",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/HARVEST_VILLAGE_PLAN.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Harvest_Village_Plan_3.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Harvest_Village_Plan_5.jpg"
+            ]
+        },
+
+        
+        {
+            "project" : "Wallis Ranch",
+            "location": "Dublin, California",
+            "description" : "A Single Family Residential Development",
+            "services" : "Engineering for Mechanical, Electrical, Plumbing, and Title 24",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Wallis_Ranch_Residential.jpg"
+            ]
+        },
+
+        {
+            "project" : "Santerra",
+            "location": "Clovis, California",
+            "description" : "A 77 Unit Residential Development",
+            "services" : "Engineering for Structural",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Santerra.jpg"
+            ]
+        },
+
+        {
+            "project" : "Monarch Grove II",
+            "location": "Lake Elsinore, California",
+            "description" : "A Single Family Residential Development",
+            "services" : "Engineering for Mechanical, Electrical, and Plumbing",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_1.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_2.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Monarch_Grove_3.jpg"
+            ]
+        },
+        
+        {
+            "project" : "The Highlands",
+            "location": "Los Gatos, California",
+            "description" : "A 1 Unit Residential Development",
+            "services" : "Engineering for Structural & Mechanical",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/The_Highlands.jpg"
+            ]
+        },
+
+        
+        {
+            "project" : "Almeria",
+            "location": "San Diego California",
+            "description" : "An 84 Unit Residential Development",
+            "services" : "Engineering for Structural, Mechanical",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Almeria_PardeeHomes_EricFiggePhotos.jpg"
+            ]
+        },
+
+        {
+            "project" : "Artesana",
+            "location": "San Diego California",
+            "description" : "A 20 Unit Residential Development",
+            "services" : "Engineering for Structural, Post Tension, and Mechanical",
+            "type" : "single-family",
+            "imagelink": [
+                "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos.jpg",
+                "assets/Medias/Images/PortfolioImages/single_family/Artesana_Pardee_Bassenian_EricFiggePhotos_2.jpg"
+            ]
+        }
+
+    ]
+
+}

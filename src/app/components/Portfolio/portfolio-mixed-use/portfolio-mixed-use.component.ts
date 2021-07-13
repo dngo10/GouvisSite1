@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as portfolioData from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
+import { default as portfolioData} from '../../../../assets/Jsons/PorfolioImages/portfolio.json';
 
 @Component({
   selector: 'app-portfolio-mixed-use',
