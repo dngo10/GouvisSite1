@@ -10,9 +10,15 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
 
   //This is for the show only. Always have 5 in there.
   videos:video_Info[] = [
-    new video_Info(0, "3tfjH1OaUgs", undefined),
-    new video_Info(1, "C1IBWmo8RgM", undefined),
-    new video_Info(2, "esUfXNKH6kw", undefined),
+    //OLD ONES
+    //new video_Info(0, "3tfjH1OaUgs", undefined),
+    //new video_Info(1, "C1IBWmo8RgM", undefined),
+    //new video_Info(2, "esUfXNKH6kw", undefined),
+
+    new video_Info(0, "nn0tB513arA", undefined),
+    new video_Info(1, "kruJH4n7kz4", undefined),
+    new video_Info(2, "p_Z8AUylojA", undefined),
+    new video_Info(3, "s6Lcz4-uWqc", undefined),
   ];
 
   wrapperWith: number;
