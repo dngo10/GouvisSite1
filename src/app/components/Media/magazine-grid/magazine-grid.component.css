@@ -1,7 +1,8 @@
 .magazineClass{
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
     width: 80%;
     margin-top: 10vh;
@@ -16,17 +17,7 @@
     width: 150px;
 }
 
-@media screen and (max-width: 1170px){
-    .magazineClass{
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 30px;
-        width: 80%;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-    }
-}
+
 
 @media screen and (max-width: 1000px){
     .magazineClass{

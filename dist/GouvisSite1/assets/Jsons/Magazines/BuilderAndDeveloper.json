@@ -10,7 +10,7 @@
     {"key": "August 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Aug/"},
     {"key": "Sep/Oct 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/SepOct/"},
     {"keyNONEED": "September 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Sep/"},
-    {"key": "October 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Oct/"},
+    {"keyNONEED": "October 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Oct/"},
     {"keyNONEED": "November 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Nov/"},
     {"keyNONEED": "December 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Dec/"},
 
