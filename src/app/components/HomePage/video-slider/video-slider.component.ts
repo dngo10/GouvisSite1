@@ -17,8 +17,9 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
 
     new video_Info(0, "nn0tB513arA", undefined),
     new video_Info(1, "kruJH4n7kz4", undefined),
-    new video_Info(2, "p_Z8AUylojA", undefined),
-    new video_Info(3, "s6Lcz4-uWqc", undefined),
+    new video_Info(3, "NaRwyhmwzKY", undefined),
+    new video_Info(4, "p_Z8AUylojA", undefined),
+    new video_Info(5, "s6Lcz4-uWqc", undefined),
   ];
 
   wrapperWith: number;
