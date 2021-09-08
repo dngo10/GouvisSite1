@@ -85,14 +85,7 @@
             "title" : "Team Lead - Electrical Department",
             "imageName" : "Mehdi_Hosseinzadeh",
             "description": ["Mehdi is a licensed P.E. with over 10 years of experience within the building industry. Mehdi’s educational background includes his Master’s degree in Electrical Engineering from Ferdowsi University of Mashhad, his Master’s degree in Project Management from Penn State University, as well as his Doctoral of Engineering Management from The George Washington University. Mehdi’s technical expertise as well as his commitment to consistency and quality in the design process has elevated him into a leadership position within Gouvis’ MEP Department. As the Electrical Team Leader, Mehdi is responsible for managing the design process of all Electrical Department projects as well as training and mentoring all electrical team members."]
-        }, 
-        {
-            "name" : "CATHERINE OVALLE",
-            "title" : "Marketing Manager",
-            "imageName" : "Catherine_Ovalle",
-            "description" : ["Catherine is experienced in a diversified range of internal development roles. As the leader of the Business Development team, Catherine contributes her expertise in sales, marketing, recruitment and graphic design. She is integral in the development and maintenance of company culture, internal procedures and client relations. Utilizing her dedicated work ethic, proficiency in design and branding, and affinity for the development of interdepartmental operating procedures, Catherine successfully navigates through an array of company development tasks. She is responsible for coordinating proposals, recruitment and staffing of employment opportunities, creating marketing collateral and media, as well as organizing company and client events. Her efforts have allowed Gouvis to execute targeted goals for the Business Development team to the highest degree."]
         }
-
     ],
 
     "oldPeople":[
@@ -101,6 +94,12 @@
             "title" : "Vice President",
             "imageName" : "Jason_Lin",
             "description" : ["Jason Lin graduated from UC Berkeley in 2007 with a BS Degree in Civil Engineering. Jason became a licensed engineer in 2010 and SE in 2013. He has ten years of extensive experience in concrete, wood, masonry and steel design. His expertise includes meshing different materials together and achieving an innovative and efficient product. Jason’s portfolio includes the design of many residential and commercial projects. For the past few years, his focus has been on multi-family, mixed use, zero-lot lines and podium projects. His current responsibilities include managing client relations, supervising a team of engineers, overseeing project timelines and ensuring product quality."]
+        },
+        {
+            "name" : "CATHERINE OVALLE",
+            "title" : "Marketing Manager",
+            "imageName" : "Catherine_Ovalle",
+            "description" : ["Catherine is experienced in a diversified range of internal development roles. As the leader of the Business Development team, Catherine contributes her expertise in sales, marketing, recruitment and graphic design. She is integral in the development and maintenance of company culture, internal procedures and client relations. Utilizing her dedicated work ethic, proficiency in design and branding, and affinity for the development of interdepartmental operating procedures, Catherine successfully navigates through an array of company development tasks. She is responsible for coordinating proposals, recruitment and staffing of employment opportunities, creating marketing collateral and media, as well as organizing company and client events. Her efforts have allowed Gouvis to execute targeted goals for the Business Development team to the highest degree."]
         }
     ]
 }
