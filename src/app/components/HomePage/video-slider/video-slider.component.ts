@@ -14,10 +14,11 @@ export class VideoSliderComponent implements OnInit, AfterViewInit, AfterContent
     //new video_Info(0, "3tfjH1OaUgs", undefined),
     //new video_Info(1, "C1IBWmo8RgM", undefined),
     //new video_Info(2, "esUfXNKH6kw", undefined),
-
+    //https://youtu.be/CPdlXYhyi-k
     new video_Info(0, "nn0tB513arA", undefined),
     new video_Info(1, "kruJH4n7kz4", undefined),
-    new video_Info(3, "NaRwyhmwzKY", undefined),
+    new video_Info(2, "NaRwyhmwzKY", undefined),
+    new video_Info(3, "CPdlXYhyi-k", undefined),
     new video_Info(4, "p_Z8AUylojA", undefined),
     new video_Info(5, "s6Lcz4-uWqc", undefined),
   ];
